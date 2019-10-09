@@ -1,0 +1,75 @@
+.mission_statement {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 8%;
+    margin: 120px 0 50px 0;
+
+    .image{
+        width: 55%;
+        
+        .firefly_hero_img{
+            width: 100%;
+            margin: 10px;
+        }
+    }
+
+
+    .text {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        word-spacing: 2px;
+        margin-right: 10px;
+
+        p {
+            font-size: 1.1rem;
+            width: 95%;
+            text-align: justify;
+            line-height: 1.5rem;
+            margin-top: 0;
+        }
+
+        h1 {
+            color: #4AA810;
+            font-size: 1.8rem;
+        }
+
+
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .mission_statement {
+        flex-direction: column;
+
+        .text {
+            width: 100%;
+            font-size: 1.2rem;
+            align-items: center;
+            margin: 5% auto;
+
+            img {
+                width: 95%;
+            }
+
+            p {
+                width: 100%;
+                padding: 5%;
+            }
+
+            h1 {
+                font-size: 2.1rem;
+                margin: 10% 0 0 0;
+            }
+
+        }
+    }
+    .little_hands {
+        color: #4AA810;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+}

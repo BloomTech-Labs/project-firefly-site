@@ -1,0 +1,102 @@
+.all-testimonies {
+  margin: 50px 100px 0px 100px;
+
+  .testimony_container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    .testimony {
+      // width: 80%;
+      display: flex;
+      align-items: center;
+      font-size: 1.1rem;
+      margin: 15px;
+
+      .user_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35%;
+        font-size: 1.1rem;
+
+        .user_name,
+        .title {
+          margin: 0;
+        }
+
+        .user_name {
+          font-weight: 700;
+        }
+      }
+      .testimony_text {
+        padding-left: 15px;
+        font-size: 1.1rem;
+      }
+      @media (max-width: 700px) {
+        // height: 100vh;
+        width: 100%;
+
+        flex-direction: column;
+        // padding: 5%;
+
+        img {
+          width: 50%;
+          position: initial;
+        }
+
+        .testimony_text {
+          // word-spacing: 10px;
+          font-size: 1.2rem;
+          width: 95%;
+          padding: 3.5%;
+        }
+
+        .user_info {
+          width: 100%;
+          font-size: 2.1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .user_name {
+            margin: 0;
+            font-weight: 700;
+            text-align: center;
+            @media (max-width: 510px) {
+              font-size: 38px;
+            }
+          }
+
+          .title {
+            margin: 0;
+            @media (max-width: 510px) {
+              font-size: 36px;
+            }
+          }
+
+          img {
+            margin: 0;
+          }
+        }
+
+        .testimony_text {
+          font-size: 1.2rem;
+          margin: 0;
+          text-align: justify;
+          @media (max-width: 510px) {
+            font-size: 38px;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 700px) {
+      height: auto;
+      .testimony_text {
+        font-size: 50px;
+      }
+    }
+  }
+}
