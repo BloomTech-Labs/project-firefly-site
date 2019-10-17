@@ -1,0 +1,185 @@
+.team_mission_statement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 120px 0 50px 0;
+  padding-top: 5%;
+}
+
+.team_mission_statement .statement {
+  width: 45%;
+  margin: 0 1%;
+}
+
+.team_mission_statement .statement h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.team_mission_statement .statement p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.team_mission_statement .statement .button_badges_container {
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team_mission_statement .statement .button_badges_container button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 70%;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.team_mission_statement .statement .button_badges_container .badges {
+  width: 70%;
+}
+
+.team_mission_statement .statement .button_badges_container .badges .ios {
+  width: 45%;
+}
+
+.team_mission_statement .statement .button_badges_container .badges .android {
+  width: 55%;
+}
+
+.team_mission_statement h1 {
+  font-size: 3rem;
+  color: #4aa810;
+}
+
+.team_mission_statement p {
+  font-size: 2.2rem;
+  text-align: justify;
+}
+
+.team_mission_statement .imagediv {
+  width: 55%;
+  margin: 0 1%;
+}
+
+.team_mission_statement .imagediv .teamPage_main_pic {
+  width: 100%;
+  margin-right: 1%;
+}
+
+@media (max-width: 700px) {
+  .team_mission_statement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    height: auto;
+  }
+  .team_mission_statement .how_it_works {
+    width: 100%;
+  }
+  .team_mission_statement .testimony_button_div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin: 25px 0 55px 0;
+  }
+  .team_mission_statement .testimony_button_div .testimony_image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 450px;
+  }
+  .team_mission_statement .testimony_button_div .testimony_image img {
+    height: 75px;
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
+  }
+  .team_mission_statement .testimony_button_div .testimonial_button {
+    width: 300px;
+    background-color: #4aa810;
+    -webkit-box-shadow: 0px 3px #3e8c0d;
+            box-shadow: 0px 3px #3e8c0d;
+    color: #e2f5d6;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.92;
+    outline: none;
+  }
+  .team_mission_statement button:active {
+    margin: 3px 0 -3px 0;
+  }
+  .team_mission_statement .statement {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .team_mission_statement .statement p {
+    background: #5b4eff;
+    color: white;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 10%;
+  }
+  .team_mission_statement .statement .teamPage_main_pic {
+    width: 75%;
+    height: auto;
+    position: initial;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .team_mission_statement .statement h1 {
+    font-size: 2.1rem;
+    color: #4aa810;
+    margin: 10% auto 3% auto;
+    text-align: center;
+  }
+  .team_mission_statement .little_hands {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10% auto 5%;
+  }
+  .team_mission_statement .more_info {
+    width: 100%;
+  }
+  .team_mission_statement .more_info img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=team.css.map */
