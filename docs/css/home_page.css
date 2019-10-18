@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+.button_badges_container {
+  padding-top: 2.5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button_badges_container button {
+  width: 300px;
+  background-color: #4aa810;
+  box-shadow: 0px 3px #3e8c0d;
+  color: #e2f5d6;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.92;
+  outline: none;
+}
+.button_badges_container button:active {
+  margin: 3px 0 -3px 0;
+}
+.button_badges_container .badges {
+  display: flex;
+  cursor: pointer;
+  width: 300px;
+  padding-top: 5px;
+}
+.button_badges_container .badges .ios {
+  width: 43%;
+  margin-left: 3%;
+}
+.button_badges_container .badges .android {
+  width: 53%;
+}
+
+.how_mission_statement .text {
+  word-spacing: 0;
+  width: 80%;
+  text-align: justify;
+}
+
+.firefly_tutorial_container {
+  margin-top: 10%;
+}
+.firefly_tutorial_container .text_container {
+  background: #5B4EFF;
+  color: white;
+  font-size: 2.1rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.firefly_tutorial_container .text_container p {
+  padding: 5% 17%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.firefly_tutorial_container .text_container img {
+  width: 11%;
+  position: absolute;
+  transform: rotate(-10deg);
+  bottom: -13%;
+  right: 10%;
+}
+.firefly_tutorial_container .tutorial_divs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+.firefly_tutorial_container .tutorial_divs h1 {
+  font-size: 2.5rem;
+  color: #4AA810;
+}
+.firefly_tutorial_container .tutorial_divs .content_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 15%;
+}
+.firefly_tutorial_container .tutorial_divs .content_container .content h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.firefly_tutorial_container .div1 h1, .firefly_tutorial_container .div2 h1, .firefly_tutorial_container .div3 h1 {
+  margin-bottom: 10%;
+}
+.firefly_tutorial_container .div1 .content_container .content, .firefly_tutorial_container .div2 .content_container .content, .firefly_tutorial_container .div3 .content_container .content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.firefly_tutorial_container .div1 .content_container .content img, .firefly_tutorial_container .div2 .content_container .content img, .firefly_tutorial_container .div3 .content_container .content img {
+  width: 100%;
+}
+.firefly_tutorial_container .div1 .content_container .content2 {
+  padding: 0;
+  margin-left: 7%;
+}
+.firefly_tutorial_container .div1 .content_container .content2 .block_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.firefly_tutorial_container .div1 .content_container .content2 .block_container .img3 {
+  align-self: flex-end;
+}
+.firefly_tutorial_container .div1 .content_container .content3 .img4 {
+  width: 55%;
+}
+.firefly_tutorial_container .div2 {
+  background: #F7F6FF;
+}
+
+.modal_icon_container {
+  position: absolute;
+  width: 100%;
+  visibility: hidden;
+  justify-content: center;
+}
+.modal_icon_container .icon_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #5B4EFF;
+  width: 25%;
+  height: 4.5vh;
+  margin: 0 3%;
+  margin-top: 5%;
+  opacity: 0.7;
+}
+.modal_icon_container .icon_div:hover {
+  opacity: 1;
+}
+.modal_icon_container .icon_div a i {
+  color: white;
+  cursor: pointer;
+}
+
+* {
+  line-height: 1.2;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #5B4EFF;
+}
+
+body {
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 62.5%;
+  margin: 0;
+}
+
+.container {
+  max-width: 1600px;
+}
+.container .test_div {
+  padding: 5%;
+}
+@media (max-width: 700px) {
+  .container .test_div {
+    padding: 0;
+  }
+}
+
+.background-container {
+  margin-top: 55px;
+  background: #5b4eff;
+}
+.background-container .how_it_works {
+  margin: 0 auto;
+  height: 100%;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.1rem;
+  position: relative;
+  padding-bottom: 79px;
+}
+.background-container .how_it_works .middle_page_firefly {
+  width: 10%;
+  position: absolute;
+  right: 5%;
+  bottom: -10.1%;
+}
+.background-container .how_it_works h2 {
+  margin: 35px 0;
+  align-self: center;
+  font-size: 1.7rem;
+  color: white;
+  letter-spacing: 2px;
+}
+.background-container .how_it_works .how_it_works_des {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 3%;
+  margin: 0 auto;
+}
+.background-container .how_it_works .how_it_works_des .video {
+  border-radius: 10px;
+  outline: none;
+}
+.background-container .how_it_works .how_it_works_des .how_it_works_text {
+  width: 50%;
+  padding-left: 5%;
+}
+.background-container .how_it_works .how_it_works_des .how_it_works_text p {
+  line-height: 1.6rem;
+  margin: 0;
+  margin-bottom: 5%;
+  text-align: justify;
+}
+.background-container .how_it_works img {
+  position: absolute;
+  right: 5%;
+  z-index: 3;
+  transform: rotate(-7deg);
+}
+
+.statement-bottom {
+  margin-top: 50px;
+}
+.statement-bottom .little_hands {
+  color: #4AA810;
+  font-size: 1.8rem;
+}
+.statement-bottom .more_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+.statement-bottom .more_info .tags {
+  width: 27%;
+  font-size: 1.1rem;
+}
+.statement-bottom .more_info .tags p {
+  line-height: 1.5rem;
+  margin-top: 0;
+}
+
+.mission_statement {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 8%;
+  margin: 120px 0 50px 0;
+}
+.mission_statement .image {
+  width: 55%;
+}
+.mission_statement .image .firefly_hero_img {
+  width: 100%;
+  margin: 10px;
+}
+.mission_statement .text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  word-spacing: 2px;
+  margin-right: 10px;
+}
+.mission_statement .text p {
+  font-size: 1.1rem;
+  width: 95%;
+  text-align: justify;
+  line-height: 1.5rem;
+  margin-top: 0;
+}
+.mission_statement .text h1 {
+  color: #4AA810;
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=home_page.css.map */
