@@ -1,0 +1,44 @@
+.container {
+  header { 
+    //overall navbar
+    .navbar {
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+      width: 100%; 
+      //left side of navigation
+      a {
+        img {
+            height: 100px; 
+            width: 100px; 
+        }
+      }
+      //right side of navigation
+      nav {
+        width: 50%; 
+        font-weight: 900;
+        
+        a {
+          text-decoration: none; 
+          color: $nav-font; 
+          font-size: 16px; 
+          margin: 0 10px;  
+        }
+        //buttons
+        .sign-in {
+          border: 1px solid $pretty-purple;
+          padding: 5.5px 15.5px;
+          border-radius: 5px;
+        }
+
+        .sign-up {
+          border: 1px solid $pretty-purple;
+          color: $sea-shell; 
+          background: $pretty-purple; 
+          padding: 5.5px 15.5px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
