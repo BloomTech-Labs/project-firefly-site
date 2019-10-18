@@ -1,0 +1,76 @@
+.button_badges_container {
+  padding-top: 2.5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_badges_container button {
+  width: 300px;
+  background-color: #4aa810;
+  box-shadow: 0px 3px #3e8c0d;
+  color: #e2f5d6;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.92;
+  outline: none;
+}
+
+.button_badges_container button:active {
+  margin: 3px 0 -3px 0;
+}
+
+.button_badges_container .badges {
+  display: flex;
+  cursor: pointer;
+  width: 300px;
+  padding-top: 5px;
+}
+
+.button_badges_container .badges .ios {
+  width: 43%;
+  margin-left: 3%;
+}
+
+.button_badges_container .badges .android {
+  width: 53%;
+}
+
+@media (max-width: 700px) {
+  .button_badges_container {
+    padding: 0;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button_badges_container button {
+    font-size: 1.08rem;
+    align-self: center;
+    width: 75%;
+  }
+
+  .button_badges_container .badges {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .button_badges_container .badges .ios {
+    width: 35%;
+    margin-left: 3%;
+  }
+
+  .button_badges_container .badges .android {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=button_badges.css.map */
+
+/*# sourceMappingURL=button_badges.css.map */

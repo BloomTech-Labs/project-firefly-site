@@ -1,0 +1,73 @@
+.mission_statement {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 8%;
+  margin: 120px 0 50px 0;
+}
+
+.mission_statement .image {
+  width: 55%;
+}
+
+.mission_statement .image .firefly_hero_img {
+  width: 100%;
+  margin: 10px;
+}
+
+.mission_statement .text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  word-spacing: 2px;
+  margin-right: 10px;
+}
+
+.mission_statement .text p {
+  font-size: 1.1rem;
+  width: 95%;
+  text-align: justify;
+  line-height: 1.5rem;
+  margin-top: 0;
+}
+
+.mission_statement .text h1 {
+  color: #4AA810;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 700px) {
+  .mission_statement {
+    flex-direction: column;
+  }
+
+  .mission_statement .text {
+    width: 100%;
+    font-size: 1.2rem;
+    align-items: center;
+    margin: 5% auto;
+  }
+
+  .mission_statement .text img {
+    width: 95%;
+  }
+
+  .mission_statement .text p {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .mission_statement .text h1 {
+    font-size: 2.1rem;
+    margin: 10% 0 0 0;
+  }
+
+  .little_hands {
+    color: #4AA810;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=marketing_mission_statement.css.map */
+
+/*# sourceMappingURL=marketing_mission_statement.css.map */

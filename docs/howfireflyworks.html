@@ -29,12 +29,21 @@
         <div class="button_badges_container">
           <button class="button"> JOIN OUR ADVENTURE</button>
           <div class="badges">
-            <img class="appStore_badge ios" src="./media/appstore.svg" alt="" />
-            <img class="appStore_badge android" src="./media/google-play-badge (1).png" alt="" />
+            <img class="appStore_badge ios" src="./media/appstore.svg" alt="iOS app store badge." />
+            <img class="appStore_badge android" src="./media/google-play-badge (1).png" alt="Google Play appstore badge." />
           </div>
         </div>
       </div>
-      <img class="mission_statement_img" src="./media/how_it_works_main.PNG" alt="" /> <!-- image for carousel -->
+      <div class="siema">
+        <div class="item">
+          <img class="mission_statement_img img-fluid" src="./media/how_it_works_main.PNG" alt="Girl reaching for a bubble; Carousel image 1." />
+        </div>
+        <!-- image for carousel -->
+        <div class="item">
+          <img class="mission_statement_img img-fluid" src="./media/how_it_works_main2.PNG" alt="Girl and mom looking at laptop screen; Carousel image 2." />
+        </div>
+        <!-- image for carousel -->
+      </div>
     </div>
     <!-- Make Carousel here -->
 
@@ -48,7 +57,7 @@
           Firefly teaches the basics and allows children
           to explore more complex ideas in our Firefly<br />
           app while having fun!</p>
-        <img src="./media/wearing_hardHat.svg" alt="" />
+        <img src="./media/wearing_hardHat.svg" alt="Firefly wearing a hard hat." />
       </div>
 
       <div class="tutorial_divs div1">
@@ -56,20 +65,20 @@
 
         <div class="content_container ">
           <div class="content1 content">
-            <img class="img1" src="./media/Customize.png" alt="" />
+            <img class="img1" src="./media/Customize.png" alt="Firefly with Lambda hat being customized." />
             <h2>Create Your Unique Firefly!</h2>
           </div>
 
           <div class="content2 content">
             <div class="block_container">
-              <img class="img2" src="./media/start_block.svg" alt="" />
-              <img class="img3" src="./media/led_block.svg" alt="" />
+              <img class="img2" src="./media/start_block.svg" alt="Yellow button with play icon." />
+              <img class="img3" src="./media/led_block.svg" alt="Blue button with flashing led icon." />
             </div>
             <h2>Play With Colorful Coding Blocks</h2>
           </div>
 
           <div class="content3 content">
-            <img class="img4" src="./media/firefly_box.svg" alt="" />
+            <img class="img4" src="./media/firefly_box.svg" alt="Firefly with blue blinker." />
             <h2>Imaginations take flight!</h2>
           </div>
         </div>
@@ -80,17 +89,17 @@
 
         <div class="content_container">
           <div class="content">
-            <img class="img1" src="./media/ManageProfiles.png" alt="" />
+            <img class="img1" src="./media/ManageProfiles.png" alt="Create a new firefly profile, or edit existing firefly profile." />
             <h2>Add your Fireflies!</h2>
           </div>
 
           <div class="content">
-            <img class="img2" src="./media/FireflyFamily.png" alt="" />
+            <img class="img2" src="./media/FireflyFamily.png" alt="View of 5 different firefly profiles." />
             <h2>See your Firefly family at a glance!</h2>
           </div>
 
           <div class="content">
-            <img class="img3" src="./media/MyFirefly.png" alt="" />
+            <img class="img3" src="./media/MyFirefly.png" alt="Firefly with Lambda hat chosen as profile to play as." />
             <h2>Start playing in seconds!</h2>
           </div>
         </div>
@@ -101,17 +110,17 @@
 
         <div class="content_container">
           <div class="content">
-            <img class="img1" src="./media/explore_more1_img.PNG" alt="" />
+            <img class="img1" src="./media/explore_more1_img.PNG" alt="Choose your world to play in." />
             <h2>Choose your world and your adventure!</h2>
           </div>
 
           <div class="content">
-            <img class="img2" src="./media/explore_more2_img.PNG" alt="" />
+            <img class="img2" src="./media/explore_more2_img.PNG" alt="Fireflies blinking in the night sky background." />
             <h2>Save your Fireflies to light up your world!</h2>
           </div>
 
           <div class="content">
-            <img class="img3" src="./media/explore_more3_img.PNG" alt="" />
+            <img class="img3" src="./media/explore_more3_img.PNG" alt="Customize the blinking ofa firefly." />
             <h2>Code even more creations in your playground!</h2>
           </div>
         </div>
@@ -128,7 +137,7 @@
     <!-- Testimonal Button -->
     <div class="testimony_button_div">
       <div class="testimony_image">
-        <img src="./media/FireFly_headphones.svg" alt="" />
+        <img src="./media/FireFly_headphones.svg" alt="Firefly with pink headphones." />
       </div>
 
       <button class="testimonial_button">JOIN OUR ADVENTURE</button>
@@ -136,7 +145,23 @@
   </div>
 
   <footer>
-    <!-- <p>Copy from other pages</p> -->
+    <script src="./siema-master/dist/siema.min.js"></script>
+    <script type="text/javascript">
+      new Siema({
+        selector: '.siema',
+        duration: 200,
+        easing: 'ease-out',
+        perPage: 1,
+        startIndex: 0,
+        draggable: true,
+        multipleDrag: true,
+        threshold: 20,
+        loop: true,
+        rtl: false,
+        onInit: () => {},
+        onChange: () => {},
+      });
+    </script>
   </footer>
 </body>
 
