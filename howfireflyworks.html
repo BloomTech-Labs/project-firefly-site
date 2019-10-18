@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div class="owl-carousel">
+      <div class="siema">
         <div class="item">
           <img class="mission_statement_img img-fluid" src="./media/how_it_works_main.PNG" alt="Girl reaching for a bubble; Carousel image 1." />
         </div>
@@ -145,21 +145,23 @@
   </div>
 
   <footer>
-<<<<<<< Updated upstream:docs/howfireflyworks.html
-
-=======
-    <!-- <p>Copy from other pages</p> -->
-    <script src="./OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
-    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
-    <script>
-      $('.owl-carousel').owlCarousel({
-        items: 1,
-        margin: 10,
-        autoHeight: true,
-        loop: true
+    <script src="./siema-master/dist/siema.min.js"></script>
+    <script type="text/javascript">
+      new Siema({
+        selector: '.siema',
+        duration: 200,
+        easing: 'ease-out',
+        perPage: 1,
+        startIndex: 0,
+        draggable: true,
+        multipleDrag: true,
+        threshold: 20,
+        loop: true,
+        rtl: false,
+        onInit: () => {},
+        onChange: () => {},
       });
     </script>
->>>>>>> Stashed changes:howfireflyworks.html
   </footer>
 </body>
 

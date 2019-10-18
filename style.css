@@ -994,4 +994,10 @@ button:active {
   }
 }
 
+.siema {
+  width: 20%;
+  overflow: hidden;
+  margin-right: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
