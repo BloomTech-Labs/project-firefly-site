@@ -1,111 +1,18 @@
-<<<<<<< HEAD
-.container {
-  margin: 0 auto;
-  max-width: 1024px;
-  font-family: "Nunito", sans-serif;
-}
-.container header .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.container header .navbar a img {
-  height: 100px;
-  width: 100px;
-}
-.container header .navbar nav {
-  width: 50%;
-  font-weight: 900;
-}
-.container header .navbar nav a {
-  text-decoration: none;
-  color: #5B4EFF;
-  font-size: 16px;
-  margin: 0 10px;
-}
-.container header .navbar nav .sign-in {
-  border: 1px solid #5B4EFF;
-  padding: 5.5px 15.5px;
-  border-radius: 5px;
-}
-.container header .navbar nav .sign-up {
-  border: 1px solid #5B4EFF;
-  color: white;
-  background: #5B4EFF;
-  padding: 5.5px 15.5px;
-  border-radius: 5px;
-}
-.container .mission-wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 3rem;
-}
-.container .mission-wrapper .mission-left {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin: 0 auto;
-}
-.container .mission-wrapper .mission-left h1 {
-  color: #4AA80F;
-  font-size: 1.8rem;
-}
-.container .mission-wrapper .mission-left p {
-  width: 95%;
-  font-size: 1.1rem;
-  text-align: justify;
-  line-height: 1.5rem;
-}
-.container .mission-wrapper .mission-left button {
-  margin: 0 auto;
-  margin-top: 1.5rem;
-  text-align: center;
-  width: 300px;
-  background-color: #4aa810;
-  box-shadow: 0px 3px #3e8c0d;
-  color: #e2f5d6;
-  padding: 0.8rem;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 10px;
-}
-.container .mission-wrapper .mission-right {
-  width: 61%;
-}
-.container .icon-container {
-  margin-top: 4rem;
-}
-.container .icon-container h2 {
-  color: #4aa810;
-  font-size: 1.8rem;
-}
-.container .icon-container .icon-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.container .icon-container .icon-wrapper .icon {
-  width: 30%;
-  line-height: 1.5rem;
-}
-.container .how-it-works-wrapper {
-  background: #5B4EFF;
-  padding: 0.5rem 0rem;
-}
-.container .how-it-works-wrapper h2 {
-  color: white;
-  font-weight: 900;
-  text-align: center;
-}
-.container .how-it-works-wrapper .hiw-row {
-  display: flex;
-}
-.container .how-it-works-wrapper .hiw-row .hiw-video {
-  width: 50%;
-}
-=======
+/* Error: Undefined variable.
+ *   ,
+ * 5 | $nav-bg: $sea-shell;
+ *   |          ^^^^^^^^^^
+ *   '
+ *   sass/variables.scss 5:10  @import
+ *   sass/index.scss 5:9       root stylesheet */
 
->>>>>>> 7d1d1af618bf36926cfadf662fde046a2207dfb8
-
-/*# sourceMappingURL=index.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 5 \2502  $nav-bg: $sea-shell;\a   \2502           ^^^^^^^^^^\a   \2575 \a   sass/variables.scss 5:10  @import\a   sass/index.scss 5:9       root stylesheet";
+}
