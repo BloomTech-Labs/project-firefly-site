@@ -1,11 +1,22 @@
-// Variables
+Variables
 
 // Color Pointers
-//Nav
+
+
+// Color Vars
+$pretty-purple: #5b4eff;
+$sea-shell: #F1F1F1;
+$ebony-clay: #23293B;
+$shuttle-gray: #5E6164;
+$firefly-green: #4aa810;
+$dark-firefly: #3e8c0d;
+$light-green: #e2f5d6;
+
+// Nav
 $nav-bg: $sea-shell;
 $nav-font: $pretty-purple;
 
-//Body
+// Body
 $header-font-color: $firefly-green;
 $main-font-color: $ebony-clay;
 $drop-shadow-color: $dark-firefly;
@@ -19,15 +30,6 @@ $copyright-color: $pretty-purple;
 //Font Types
 $header-font-type: 'Nunito', sans-serif;
 $main-font-type: 'Nunito', sans-serif;
-
-// Color Vars
-$pretty-purple: #5b4eff;
-$sea-shell: #F1F1F1;
-$ebony-clay: #23293B;
-$shuttle-gray: #5E6164;
-$firefly-green: #4aa810;
-$dark-firefly: #3e8c0d;
-$light-green: #e2f5d6;
 
 // Breakpoint Vars
 $mobile: (max-width: 812px);

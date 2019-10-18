@@ -18,3 +18,138 @@
 //pages
 
 @import "home-page";
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: "Nunito", sans-serif;
+
+    header { 
+
+        .navbar {
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+            width: 100%; 
+
+            a {
+                
+                img {
+                    height: 100px; 
+                    width: 100px; 
+                }
+            }
+
+            nav {
+                width: 50%; 
+                font-weight: 900;
+                
+                a {
+                    text-decoration: none; 
+                    color: #5B4EFF; 
+                    font-size: 16px; 
+                    margin: 0 10px;  
+                }
+
+                .sign-in {
+                    border: 1px solid #5B4EFF;
+                    padding: 5.5px 15.5px;
+                    border-radius: 5px;
+                }
+
+                .sign-up {
+                    border: 1px solid #5B4EFF;
+                    color: white; 
+                    background: #5B4EFF; 
+                    padding: 5.5px 15.5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    .mission-wrapper {
+        display: flex; 
+        justify-content: space-between;
+        margin-top: 3rem; 
+
+        .mission-left {
+            display: flex; 
+            flex-direction: column;
+            width: 50%; 
+            margin: 0 auto; 
+
+            h1 {
+                color: #4AA80F; 
+                font-size: 1.8rem; 
+            }
+
+            p {
+                width: 95%; 
+                font-size: 1.1rem;
+                text-align: justify; 
+                line-height: 1.5rem;
+            }
+
+            button {
+                margin: 0 auto; 
+                margin-top: 1.5rem; 
+                text-align: center; 
+                width: 300px; 
+                background-color: #4aa810;
+                box-shadow: 0px 3px #3e8c0d;
+                color:#e2f5d6;
+                padding: 0.8rem;
+                font-size:1.2rem;
+                border: none;
+                border-radius:10px;
+            }
+        }
+
+        .mission-right {
+            width: 61%; 
+            
+        }
+
+    }
+
+    .icon-container {
+        margin-top: 4rem;
+        
+        h2 {
+            color: #4aa810; 
+            font-size: 1.8rem; 
+        }
+
+        .icon-wrapper {
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+
+            .icon {
+                width: 30%; 
+                line-height: 1.5rem;
+            }
+        }
+    }
+
+    .how-it-works-wrapper {
+        background: #5B4EFF; 
+        padding: .5rem 0rem; 
+
+        h2 {
+            color: white; 
+            font-weight: 900; 
+            text-align: center;
+        }
+
+        .hiw-row {
+            display: flex; 
+
+            .hiw-video {
+                width: 50%; 
+            }
+        }
+    }
+}
