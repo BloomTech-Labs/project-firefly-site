@@ -203,11 +203,9 @@ footer .footer_logo img {
 .container .mission-wrapper .mission-left p {
   width: 95%;
   font-size: 1.1rem;
-  text-align: justify;
 }
 .container .mission-wrapper .mission-left button {
   margin: 0 auto;
-  margin-top: 1.5rem;
   text-align: center;
   width: 300px;
   background-color: #4aa810;
@@ -307,13 +305,13 @@ footer .footer_logo img {
   font-weight: 900;
 }
 .container .mission-wrapper .mission-left p {
-  margin-top: 5rem;
+  margin-top: 2rem;
   width: 95%;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .container .mission-wrapper .mission-left button {
   margin: 0 auto;
-  margin-top: 8rem;
+  margin-top: 2rem;
   text-align: center;
   width: 300px;
   background-color: #4aa810;
