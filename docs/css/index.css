@@ -204,7 +204,6 @@ footer .footer_logo img {
   width: 95%;
   font-size: 1.1rem;
   text-align: justify;
-  line-height: 1.5rem;
 }
 .container .mission-wrapper .mission-left button {
   margin: 0 auto;
@@ -305,22 +304,23 @@ footer .footer_logo img {
 .container .mission-wrapper .mission-left h1 {
   color: #4aa80f;
   font-size: 3.5rem;
+  font-weight: 900;
 }
 .container .mission-wrapper .mission-left p {
-  margin-top: 3rem;
+  margin-top: 5rem;
   width: 95%;
   font-size: 2rem;
 }
 .container .mission-wrapper .mission-left button {
   margin: 0 auto;
-  margin-top: 1.5rem;
+  margin-top: 8rem;
   text-align: center;
   width: 300px;
   background-color: #4aa810;
   box-shadow: 0px 3px #3e8c0d;
   color: #e2f5d6;
   padding: 0.8rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   border: none;
   border-radius: 10px;
 }
@@ -328,11 +328,13 @@ footer .footer_logo img {
   width: 61%;
 }
 .container .icon-container {
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 .container .icon-container h2 {
   color: #4aa810;
   font-size: 3.5rem;
+  margin-bottom: 3rem;
+  font-weight: 900;
 }
 .container .icon-container .icon-wrapper {
   display: flex;
@@ -341,21 +343,69 @@ footer .footer_logo img {
 }
 .container .icon-container .icon-wrapper .icon {
   width: 30%;
+  font-size: 2rem;
+}
+.container .icon-container .icon-wrapper .icon p {
+  font-size: 2rem;
 }
 .container .how-it-works-wrapper {
   background: #5b4eff;
   padding: 0.5rem 0rem;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6rem;
 }
 .container .how-it-works-wrapper h2 {
+  margin-top: 3rem;
   color: white;
   font-weight: 900;
   text-align: center;
 }
 .container .how-it-works-wrapper .hiw-row {
   display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
 }
 .container .how-it-works-wrapper .hiw-row .hiw-video {
-  width: 50%;
+  width: 45%;
+  border-radius: 1.5rem;
+}
+.container .how-it-works-wrapper .hiw-row .hiw-text-container {
+  width: 45%;
+}
+.container .how-it-works-wrapper .hiw-row .hiw-text-container .hiw-text {
+  font-size: 2rem;
+  color: white;
+}
+.container .how-it-works-wrapper .hiw-image {
+  margin-left: 88%;
+  width: 10%;
+  position: absolute;
+  right: 5%;
+  bottom: -10.1%;
+}
+.container .testimonials {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+}
+.container .testimonials .testimonial {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+.container .testimonials .testimonial .profile-info h4 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 900;
+}
+.container .testimonials .testimonial .profile-info h5 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: black;
 }
 
 /*# sourceMappingURL=index.css.map */
