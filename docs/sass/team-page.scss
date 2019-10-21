@@ -3,6 +3,7 @@
 	display: flex;
 	justify-content: center;
 	font-family: nunito;
+	flex-direction: column;
 	// max-width: 100%;
 
 	.team_mission_statement {
@@ -34,13 +35,13 @@
 					margin: 0 10px;
 					
 					h1 {
-						font-size: 1.8rem;
+						font-size: 2.88rem;
 						// margin: 0;
 					}
 				
 					p {
-						font-size: 1.1rem;
-						// line-height: 1.5rem;
+						font-size: 1.76rem;
+						line-height: 1.5rem;
 					}
 				}
 			}
@@ -54,7 +55,7 @@
   
 		button {
 		  width: 70%;
-		  font-size: 1.1rem;
+		  font-size: 1.76rem;
 		}
   
 		.badges {
@@ -65,12 +66,12 @@
   }
   
 	h1 {
-	  font-size: 3rem;
+	  font-size: 4.8rem;
 	  color: #4aa810;
 	}  
 
 	p {
-	  font-size: 1.1rem;
+	  font-size: 1.76rem;
 	  line-height: 1.5rem;
 	  // width: 40%;
 	  text-align: justify;
@@ -104,7 +105,7 @@
 		p {
 		  background: #5b4eff;
 		  color: white;
-		  font-size: 1.5rem;
+		  font-size: 2.4rem;
 		  text-align: justify;
 		  padding: 10%;
 		}
@@ -117,7 +118,7 @@
 		}
   
 		h1 {
-		  font-size: 2.1rem;
+		  font-size: 3.36rem;
 		  color: #4aa810;
 		//   margin: 10% auto 3% auto;
 		  text-align: center;
@@ -125,7 +126,7 @@
 	}
   
 	.little_hands {
-		font-size: 2rem;
+		font-size: 3.2rem;
 		text-align: center;
 		// margin: 10% auto 5%;
 	}
@@ -148,13 +149,14 @@
 	
   
 	h1 {
-	  	font-size: 1.8rem;
+	  	font-size: 2.88rem;
 	  	letter-spacing: 2px;
 		color: white;
 	}
   
 	.our_story_text {
-		width: 1000px;
+		//width: 1000px;
+		width: 70%;
 		margin: 0 auto;
 		text-align: center;
 		padding: 1.2rem 0;
@@ -165,9 +167,9 @@
 			align-items: center;
 
 			p {
-				font-size: 1.5rem;		
-				line-height: 2rem;
-				width: 500px;
+				font-size: 2.4rem;
+				line-height: 3rem;
+				width: 62.5%;
 				text-align: center;
 			  }
 		}
@@ -175,15 +177,17 @@
   
 	.fireFly_hat {
 	  width: 9%;
-	  position: absolute;
-	  top: 28%;
-	  right: 14%;
+	  position: relative;
+	  top: 50%;
+	  left: 85%;
+	  display: block;
 	  transform: rotate(-10deg);
 	}
 
 	.kid-pics {
 		height: 198px;
 		width: 198px;
+		object-fit: cover;
 	}
 
 	.kid-container {
@@ -203,12 +207,12 @@
 		// padding: 2%;
 
 		h1 {
-		  font-size: 2rem;
+		  font-size: 3.2rem;
 		  color: white;
 		}
   
 		p {
-		  font-size: 1.2rem;
+		  font-size: 1.92rem;
 		}
 	  }
 	}
@@ -235,13 +239,13 @@
 		width: 70%;
   
 		h1 {
-		  font-size: 2rem;
+		  font-size: 3.2rem;
 		  color: black;
 		}
   
 		ul {
 		  li {
-			font-size: 1.2rem;
+			font-size: 1.92rem;
 			list-style-image: url("../img/contentGroup_bullets.svg");
 			margin: 15px;
 		  }
@@ -260,11 +264,11 @@
 		  width: 100%;
   
 		  h1 {
-			font-size: 2rem;
+			font-size: 3.2rem;
 		  }
   
 		  p {
-			font-size: 1.2rem;
+			font-size: 1.92rem;
 		  }
 		}
 	  }
@@ -285,7 +289,7 @@
         color:#e2f5d6;
         padding: 0.8rem;
         text-transform: uppercase;
-        font-size:1.2rem;
+        font-size: 1.92rem;
         border: none;
         border-radius:10px;
         opacity:0.92;
@@ -330,7 +334,7 @@
         
         
         button {
-            font-size: 1.08rem;
+            font-size: 1.728rem;
             align-self: center; 
             width: 75%;
         }
@@ -367,7 +371,7 @@
 
 		.testimony_text {
 			// padding-left: 15px;
-			font-size: 1.1rem;
+			font-size: 1.76rem;
 			line-height: 1.2rem;
 			margin: 0; 
 		}
@@ -391,14 +395,14 @@
 
 		.testimony_text {
 		// word-spacing: 10px;
-		font-size: 1.2rem;
+		font-size: 1.92rem;
 		width: 95%;
 		padding: 3.5%;
 		}
 
 		.user_info {
 		width: 100%;
-		font-size: 2.1rem;
+		font-size: 3.36rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -425,7 +429,7 @@
 		}
 
 		.testimony_text {
-		font-size: 1.2rem;
+		font-size: 1.92rem;
 		margin: 0;
 		text-align: justify;
 		@media (max-width: 510px) {
@@ -469,7 +473,7 @@
         box-shadow: 0px 3px #3e8c0d;
         color:#e2f5d6;
         padding: 0.8rem;
-        font-size:1.2rem;
+        font-size: 1.92rem;
         border: none;
         border-radius:10px;
         opacity:0.92;
