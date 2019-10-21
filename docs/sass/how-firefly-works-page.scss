@@ -8,7 +8,7 @@
     // margin: 120px 0 50px 0;
     margin-bottom: 50px;
 
-    @media (max-width: 500px) {
+    @media $mobileM {
       flex-direction: column-reverse;
       margin: 0 5% 50px;
     }
@@ -20,7 +20,7 @@
       word-spacing: 2px;
       margin-right: 10px;
 
-      @media (max-width: 500px) {
+      @include mobileM {
         text-align: center;
         width: 100%;
         margin: 0;
@@ -31,7 +31,7 @@
         font-size: 2.88rem;
         margin-bottom: 2rem;
 
-        @media (max-width: 500px) {
+        @include mobileM {
           font-size: 3rem;
           margin-top: 1rem;
         }
@@ -44,7 +44,7 @@
         line-height: 1.5rem;
         margin-bottom: 2rem;
 
-        @media (max-width: 500px) {
+        @include mobileM {
           text-align: center;
         }
       }
@@ -139,7 +139,7 @@
         font-size: 2.4rem;
         text-align: center;
 
-        @media (max-width: 500px) {
+        @include mobileM {
           font-size: 1.6rem;
         }
       }
@@ -151,7 +151,7 @@
         bottom: -13%;
         right: 10%;
 
-        @media (max-width: 500px) {
+        @include mobileM {
           width: 18%;
           bottom: -24%;
           right: 8%;
@@ -165,7 +165,7 @@
       align-items: center;
       margin-top: 10%;
 
-      @media (max-width: 500px) {
+      @include mobileM {
         margin-top: 5%
       }
 
@@ -173,7 +173,7 @@
         font-size: 4rem;
         color: #4AA810;
 
-        @media (max-width: 500px) {
+        @include mobileM {
           text-align: center;
           font-size: 3rem;
         }
@@ -185,7 +185,7 @@
         width: 100%;
         margin-bottom: 15%;
 
-        @media (max-width: 500px) {
+        @include mobileM {
           flex-direction: column;
           align-items: center;
         }
@@ -197,7 +197,7 @@
             font-size: 1.92rem;
             text-align: center;
 
-            @media (max-width: 500px) {
+            @include mobileM {
               margin-bottom: 1rem;
             }
           }
@@ -207,7 +207,7 @@
 
     .tut_div1, .tut_div2, .tut_div3 {
 
-      @media (max-width: 500px) {
+      @include mobileM {
         padding: 0 5%;
       }
 
@@ -224,7 +224,7 @@
           align-items: center;
           justify-content: flex-end;
 
-          @media (max-width: 500px) {
+          @include mobileM {
             width: 100%;
             flex-direction: column-reverse;
           }
@@ -232,7 +232,7 @@
           img {
             width: 100%;
 
-            @media (max-width: 500px) {
+            @include mobileM {
               margin-bottom: 3.2rem;
             }
           }
@@ -248,7 +248,7 @@
           padding: 0;
           margin-left: 7%;
 
-          @media (max-width: 500px) {
+          @include mobileM {
             margin-left: 0;
           }
 
@@ -257,7 +257,7 @@
             width: 100%;
             height: 100%;
             
-            @media (max-width: 500px) {
+            @include mobileM {
               justify-content: center;
             }
               
@@ -293,7 +293,7 @@
     width: 100%;
     margin: 25px 0 55px 0;
 
-    @media (max-width: 500px) {
+    @include mobileM {
       position: relative;
     }
 
@@ -307,7 +307,7 @@
         height: 75px;
         transform: rotate(-7deg);
 
-        @media (max-width: 500px) {
+        @include mobileM {
           position: absolute;
           left: 2%;
           bottom: 90%;
