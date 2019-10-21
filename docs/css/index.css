@@ -309,9 +309,12 @@ footer .footer_logo img {
   width: 95%;
   font-size: 1.8rem;
 }
+.container .mission-wrapper .mission-left p em {
+  font-style: italic;
+}
 .container .mission-wrapper .mission-left button {
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 5rem;
   text-align: center;
   width: 300px;
   background-color: #4aa810;
