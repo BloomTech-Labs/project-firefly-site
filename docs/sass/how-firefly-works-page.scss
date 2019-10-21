@@ -1,3 +1,7 @@
+.img-carousel {
+  display:none;
+}
+
 .how_firefly_works_container {
 
   .mission_statement {
@@ -7,26 +11,38 @@
     padding-top: 8%;
     margin: 120px 0 50px 0;
 
+
+    @media (max-width: 800px) {
+    //   padding: 0;
+    //   width: 100%;
+    //   margin-top: 500%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
     .text {
       width: 45%;
       display: flex;
       flex-direction: column;
-      word-spacing: 2px;
+      // word-spacing: 2px;
       margin-right: 10px;
-
+      
       h1 {
         color: #4AA810;
         font-size: 2.88rem;
         margin-bottom: 2rem;
       }
-
+      
       p {
         font-size: 1.76rem;
         width: 95%;
+          
         text-align: justify;
         line-height: 1.5rem;
         margin-bottom: 2rem;
       }
+
     } 
   }
 
@@ -49,6 +65,8 @@
       border-radius:10px;
       opacity:0.92;
       outline: none;  
+
+
     }
 
     button:active {
@@ -68,36 +86,6 @@
 
       .android {
         width: 53%;
-      }
-    }
-
-    @media (max-width: 700px) {
-      padding: 0;
-      width: 100%;
-      margin-top: 5%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      button {
-        font-size: 1.08rem;
-        align-self: center; 
-        width: 75%;
-      }
-
-      .badges {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-
-        .ios {
-          width: 35%;
-          margin-left: 3%;
-        }
-
-        .android {
-          width: 40%;
-        }
       }
     }
   }
@@ -245,4 +233,6 @@
       outline: none;
     }
   }
+
 }
+
