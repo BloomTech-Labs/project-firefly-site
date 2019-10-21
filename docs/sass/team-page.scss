@@ -6,6 +6,7 @@
 	flex-direction: column;
 	// max-width: 100%;
 
+
 	.team_mission_statement {
 
 		max-width: 100%;
@@ -27,7 +28,7 @@
 			.statement2{			
 				display: flex;
 				flex-flow: column nowrap;
-				justify-content: center;
+				justify-content: flex-end;
 				align-items: center;
 				width: 45%; 
 				
@@ -41,17 +42,26 @@
 				
 					p {
 						font-size: 1.76rem;
-						line-height: 1.5rem;
+						line-height: 2rem;
 					}
 				}
 			}
-  
+  		.align-container {
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+
+		}
 		.button_badges_container {
 			// padding: 25px; 
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+
   
 		button {
 		  width: 70%;
@@ -145,7 +155,7 @@
 .our_story {
 	background: #5b4eff;
 	color: white;
-	// position: relative;
+	width: 65.5vw;
 	
   
 	h1 {
@@ -156,7 +166,7 @@
   
 	.our_story_text {
 		//width: 1000px;
-		width: 70%;
+		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 		padding: 1.2rem 0;
@@ -199,12 +209,14 @@
 		margin: 125px 0 0 0;
 		padding: 2px;
 		background: white;
+		width: auto;
 	}
   
 	@media (max-width: 700px) {
 	  .our_story_text {
 		width: 100%;
 		// padding: 2%;
+
 
 		h1 {
 		  font-size: 3.2rem;
@@ -276,7 +288,7 @@
   }
 
 .button_badges_container {
-    // padding-top: 2.5%;
+    padding-top: 2.5%;
     width: 100%;
     display: flex;
     flex-direction: column;

@@ -316,7 +316,7 @@ footer nav .copyright {
 .team_page_container .team_mission_statement .statement .statement2 {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 45%;
 }
@@ -328,7 +328,15 @@ footer nav .copyright {
 }
 .team_page_container .team_mission_statement .statement .statement2 div p {
   font-size: 1.76rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
+}
+.team_page_container .team_mission_statement .statement .align-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 .team_page_container .team_mission_statement .statement .button_badges_container {
   display: flex;
@@ -405,6 +413,7 @@ footer nav .copyright {
 .our_story {
   background: #5b4eff;
   color: white;
+  width: 65.5vw;
 }
 .our_story h1 {
   font-size: 2.88rem;
@@ -412,7 +421,7 @@ footer nav .copyright {
   color: white;
 }
 .our_story .our_story_text {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   padding: 1.2rem 0;
@@ -450,6 +459,7 @@ footer nav .copyright {
   margin: 125px 0 0 0;
   padding: 2px;
   background: white;
+  width: auto;
 }
 @media (max-width: 700px) {
   .our_story .our_story_text {
@@ -513,6 +523,7 @@ footer nav .copyright {
 }
 
 .button_badges_container {
+  padding-top: 2.5%;
   width: 100%;
   display: flex;
   flex-direction: column;
