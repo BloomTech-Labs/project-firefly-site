@@ -1,31 +1,38 @@
 footer {
   background-color: $footer-background;
   margin: 0 auto;
+  padding-bottom: 25px;
+  border: 1px solid $ebony-clay;
   @include flex(column, center, center);
 
   nav {
     width: 1000px;
     margin: 0 auto;
-    @include flex(row, center, space-between);
+    @include flex(row, flex-start, space-between);
 
-    .footer-column {
-      @include flex(column, center, center);
-      padding: 25px;
-      
-      a {
-        color: $footer-font-color;
-        font-size: 1.2rem;
-        padding: 10px;
+    .footer-row {
+      @include flex(row, flex-start, space-around);
+
+      .footer-column {
+        @include flex(column, center, center);
+        padding: 25px;
+        
+        a {
+          color: $footer-font-color;
+          font-size: 1.6rem;
+          padding: 10px;
+        }
       }
     }
     
     .footer-logo {
       width: 10%;
-      
+
     }
     
     .copyright {
       color: $copyright-color;
+      font-size: 1rem;
       text-align: center;
     }
   }

@@ -104,6 +104,8 @@ header .navbar {
 footer {
   background-color: #5E6164;
   margin: 0 auto;
+  padding-bottom: 25px;
+  border: 1px solid #23293B;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,22 +115,28 @@ footer {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between; }
-    footer nav .footer-column {
+    footer nav .footer-row {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 25px; }
-      footer nav .footer-column a {
-        color: #23293B;
-        font-size: 1.2rem;
-        padding: 10px; }
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around; }
+      footer nav .footer-row .footer-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 25px; }
+        footer nav .footer-row .footer-column a {
+          color: #F1F1F1;
+          font-size: 1.6rem;
+          padding: 10px; }
     footer nav .footer-logo {
       width: 10%; }
     footer nav .copyright {
       color: #5b4eff;
+      font-size: 1rem;
       text-align: center; }
 
 .container {
