@@ -43,45 +43,36 @@
 						line-height: 2.8rem;
 					}
 				}
+			
+
+				.button_badges_container {
+					padding: 25px; 
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+
+		
+					button {
+					width: 70%;
+					font-size: 1.76rem;
+					}
+			
+					.badges {
+					width: 70%;
+						.ios {
+							width: 45%;
+							// margin-left: 10%;
+						}
+						.android {
+							width: 55%;
+						}
+					}
+				}
 			}
-
-		.button_badges_container {
-			padding: 25px; 
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-
-  
-		button {
-		  width: 70%;
-		  font-size: 1.76rem;
 		}
-  
-		.badges {
-		  width: 70%;
-		}
-	  }
 	}
-  }
-  
-	h1 {
-	  font-size: 4.8rem;
-	  font-weight: bold;
-	  color: #4aa810;
-	}  
-
-	p {
-	  font-size: 1.76rem;
-	  line-height: 1.5rem;
-	  text-align: justify;
-	}
-  
-	  .teamPage_main_pic {
-		width: 55%;
-	  }
 }
-
 
 .our_story {
 	background: #5b4eff;
@@ -135,7 +126,6 @@
 		display: grid;
 		grid-gap: 2px;
 		grid-template-rows: auto auto;
-		// grid-template-columns: 13.0vh 13.0vh;
 		grid-auto-flow: column;
 		justify-content: center;
 		margin: 2rem 0 0 0;
@@ -176,7 +166,6 @@
 				font-size: 1.92rem;
 				list-style-image: url("../img/contentGroup_bullets.svg");
 				margin: 15px;
-
 			}
 		}
 	}
@@ -209,9 +198,9 @@
     .badges {
         display: flex;
         cursor: pointer;
-        // align-self: flex-start;
         width: 300px;
-        padding-top: 5px;
+		padding-top: 5px;
+		
         .ios {
             width: 43%;
             margin-left: 3%;
@@ -219,10 +208,8 @@
 
         .android {
             width: 53%;
-        }
-       
+        }    
     }
-    
 }
 
 .testimony_container {
@@ -239,13 +226,11 @@
 	}
 
 	.testimony {
-	// width: 80%;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
 
 		.testimony_text {
-			// padding-left: 15px;
 			font-size: 1.76rem;
 			line-height: 1.2rem;
 			margin: 0; 			
