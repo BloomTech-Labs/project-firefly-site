@@ -114,16 +114,24 @@
 }
 .our_story h1 {
   font-size: 1.8rem;
+  letter-spacing: 2px;
   color: white;
 }
 .our_story .our_story_text {
   width: 1000px;
   margin: 0 auto;
   text-align: center;
+  padding: 1.2rem 0;
 }
-.our_story .our_story_text p {
+.our_story .our_story_text .our_story_pdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our_story .our_story_text .our_story_pdiv p {
   font-size: 1.5rem;
   line-height: 2rem;
+  width: 500px;
   text-align: center;
 }
 .our_story .fireFly_hat {
@@ -272,6 +280,7 @@
   }
 }
 .testimony_container {
+  margin: 15px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -280,11 +289,11 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin: 15px;
 }
 .testimony_container .testimony .testimony_text {
   font-size: 1.1rem;
-  text-align: center;
+  line-height: 1.2rem;
+  margin: 0;
 }
 .testimony_container .testimony .name {
   font-weight: 700;
