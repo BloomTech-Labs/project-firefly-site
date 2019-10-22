@@ -307,7 +307,7 @@ footer nav .copyright {
 }
 .team_page_container .team_mission_statement .statement {
   width: 65.5vw;
-  margin: 4rem 2rem 8rem 0;
+  margin: 4rem 0 8rem 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -325,7 +325,7 @@ footer nav .copyright {
 }
 .team_page_container .team_mission_statement .statement .statement2 div h1 {
   font-size: 3.6rem;
-  margin: 0 0 2rem 0;
+  margin: 0 0 3rem 0;
   font-weight: 700;
 }
 .team_page_container .team_mission_statement .statement .statement2 div p {
@@ -333,6 +333,7 @@ footer nav .copyright {
   line-height: 2.8rem;
 }
 .team_page_container .team_mission_statement .statement .statement2 .button_badges_container {
+  margin: 3rem 0 0 0;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -350,6 +351,9 @@ footer nav .copyright {
   width: 45%;
 }
 .team_page_container .team_mission_statement .statement .statement2 .button_badges_container .badges .android {
+  width: 55%;
+}
+.team_page_container .team_mission_statement .statement .teamPage_main_pic {
   width: 55%;
 }
 
@@ -537,19 +541,10 @@ button:active {
   margin: 3px 0 -3px 0;
 }
 
-@media only screen and (max-width: 600px) {
-  main {
-    overflow: hidden;
-  }
-
-  .teamPage_main_pic {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
+@media (max-width: 600px) {
   .team_page_container {
     margin: 0;
+    width: 100%;
   }
   .team_page_container .team_mission_statement .statement {
     margin: 0;
@@ -558,6 +553,11 @@ button:active {
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+  .team_page_container .team_mission_statement .statement .teamPage_main_pic {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   .team_page_container .team_mission_statement .statement .statement2 {
     display: flex;
@@ -642,6 +642,51 @@ button:active {
 
   .testimony_button_div .testimony_image {
     margin: -2rem 0 1rem 10rem;
+  }
+}
+@media (max-width: 800px) {
+  .team_page_container {
+    margin: 0;
+  }
+  .team_page_container .team_mission_statement {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  .team_page_container .team_mission_statement .statement {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .team_page_container .team_mission_statement .statement .statement2 {
+    width: 100%;
+  }
+  .team_page_container .team_mission_statement .statement .teamPage_main_pic {
+    width: 100%;
+    margin: 0;
+    margin: 0 15px 0 0;
+  }
+  .team_page_container .team_mission_statement .our_story {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .team_page_container .team_mission_statement .our_story .kid-pics {
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  .team_page_container .team_mission_statement .our_story .kid-container {
+    width: 100%;
+  }
+  .team_page_container .team_mission_statement .content_group {
+    width: 100%;
+    margin: 8rem 0 4rem 0;
   }
 }
 

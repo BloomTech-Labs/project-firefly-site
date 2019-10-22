@@ -16,7 +16,7 @@
 
 		.statement {
 			width: 65.5vw;
-		 	margin: 4rem 2rem 8rem 0;
+		 	margin: 4rem 0 8rem 0;
 			display: flex;
 			flex-flow: row nowrap;
 			justify-content: space-between;
@@ -34,7 +34,7 @@
 					
 					h1 {
 						font-size: 3.6rem;
-						margin: 0 0 2rem 0;
+						margin: 0 0 3rem 0;
 						font-weight: 700;
 					}
 				
@@ -46,6 +46,7 @@
 			
 
 				.button_badges_container {
+					margin: 3rem 0 0 0;
 					padding: 25px; 
 					display: flex;
 					flex-direction: column;
@@ -59,16 +60,19 @@
 					}
 			
 					.badges {
-					width: 70%;
+					width: 70%;					
+
 						.ios {
-							width: 45%;
-							// margin-left: 10%;
+							width: 45%;							
 						}
 						.android {
 							width: 55%;
 						}
 					}
 				}
+			}
+			.teamPage_main_pic{
+			width: 55%;
 			}
 		}
 	}
@@ -282,29 +286,24 @@ button:active {
     margin: 3px 0 -3px 0;
 }
 
-// @@@@@@@@@@@@@@@@@@@ MEDIA QUESRIES @@@@@@@@@@@@
+// @@@@@@@@@@@@@@@@@@@ MEDIA QUESo @@@@@@@@@@@@
 
 
-@media only screen and(max-width: 600px){
+@media(max-width: 600px){
 	// body{
-	// 	margin: 0 !important;
+	// 	margin: 0;
 	// 	padding: 0;
 	// 	background: red;
-	// 	width: 95% !important;
+	// 	width: 110%;
 	// 	display: flex;
 	// 	justify-content: center;
 	// }
-	main{
-		overflow: hidden;
-	}
-	.teamPage_main_pic{
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
+	
 
 	.team_page_container {
 		margin: 0;
+		width: 100%;
+
 		.team_mission_statement .statement{
 		margin: 0;
 		display: flex;
@@ -312,6 +311,12 @@ button:active {
 		justify-content: center;
 		align-items: center;
 		width: 100%;
+
+		.teamPage_main_pic{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
 
 		.statement2{			
 			display: flex;
@@ -420,6 +425,63 @@ button:active {
 		
 		.testimony_image{
 			margin: -2rem 0 1rem 10rem;
+		}
+	}
+}
+
+@media(max-width: 800px){
+	.team_page_container{
+		margin: 0;
+	
+		.team_mission_statement{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			height: auto;
+
+			.statement{
+				display: flex;
+				flex-flow: column wrap;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+
+				.statement2{
+					width: 100%;
+				}
+
+				.teamPage_main_pic{
+					width: 100%;
+					margin: 0;
+					margin: 0 15px 0 0;
+				}
+			}
+			.our_story{
+				width: 100%;
+				margin: 0;
+				padding: 0;
+
+				.kid-pics {
+					height: 10rem;
+					width: 100%;
+					object-fit: cover;
+				}
+		
+				.kid-container{
+					width: 100%;
+				}
+			}
+
+			.content_group{
+				width: 100%;
+				margin: 8rem 0 4rem 0;
+
+				.content{
+
+				}
+			}
 		}
 	}
 }
