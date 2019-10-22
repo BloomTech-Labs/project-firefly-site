@@ -15,11 +15,11 @@
 		position: relative;
 
 		.statement {
-			width: 1000px;
-		 	margin: 4rem 0 8rem 0;
+			width: 65.5vw;
+		 	margin: 4rem 2rem 8rem 0;
 			display: flex;
 			flex-flow: row nowrap;
-			justify-content: space-evenly;
+			justify-content: space-between;
 
 			.statement2{			
 				display: flex;
@@ -282,215 +282,144 @@ button:active {
     margin: 3px 0 -3px 0;
 }
 
-
 // @@@@@@@@@@@@@@@@@@@ MEDIA QUESRIES @@@@@@@@@@@@
 
-// @media (max-width: 700px) {
-// 	display: flex;
-// 	flex-direction: column;
-// 	// justify-content: space-between;
-// 	position: relative;
-// 	height: auto;
-//   //   padding: 10% 3%;
 
-// 	.how_it_works {
-// 	  width: 100%;
-// 	}
+@media only screen and(max-width: 600px){
+	// body{
+	// 	margin: 0 !important;
+	// 	padding: 0;
+	// 	background: red;
+	// 	width: 95% !important;
+	// 	display: flex;
+	// 	justify-content: center;
+	// }
+	main{
+		overflow: hidden;
+	}
+	.teamPage_main_pic{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 
-// 	.statement {
-// 	  display: flex;
-// 	  flex-direction: column;
-// 	  width: 100%;
-// 	  height: auto;
-// 	  padding: 0;
-	   
-// 	  p {
-// 		background: #5b4eff;
-// 		color: white;
-// 		font-size: 2.4rem;
-// 		text-align: justify;
-// 		padding: 10%;
-// 	  }
+	.team_page_container {
+		margin: 0;
+		.team_mission_statement .statement{
+		margin: 0;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
 
-// 	  .teamPage_main_pic {
-// 		width: 75%;
-// 		height: auto;
-// 		position: initial;
-// 		align-self: center;
-// 	  }
+		.statement2{			
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: 0;
+			
+			div{
+				margin: 0 10px;
+				
+				h1 {
+					font-size: 3.6rem;
+					margin: 0 0 2rem 0;
+					font-weight: 700;
+				}
+			
+				p {
+					font-size: 1.8rem;
+					line-height: 2.8rem;
+				}
+			}
+		
 
-// 	  h1 {
-// 		font-size: 3.36rem;
-// 		color: #4aa810;
-// 	  //   margin: 10% auto 3% auto;
-// 		text-align: center;
-// 	  }
-//   }
+			.button_badges_container {
+				padding: 25px; 
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
 
-//   .little_hands {
-// 	  font-size: 3.2rem;
-// 	  text-align: center;
-// 	  // margin: 10% auto 5%;
-//   }
+	
+				button {
+				width: 70%;
+				font-size: 1.76rem;
+				}
+		
+				.badges {
+				width: 70%;
+					.ios {
+						width: 45%;
+						// margin-left: 10%;
+					}
+					.android {
+						width: 55%;
+					}
+				}
+			}
+		}
+	}
+}
+	.our_story{
+		width: 100%;
 
-// 	.more_info {
-// 	  width: 100%;
+		.our_story_text .our_story_pdiv p{
+			font-size: 1.8rem;
+		}
 
-// 	  img {
-// 		width: 100%;
-// 	  }
-// 	}
-//   }
+		.fireFly_hat{
+			width: 20%;
+			top: 50%;
+    		left: 75%;
+		}
 
+		.kid-pics {
+			height: 10rem;
+			width: 100%;
+			object-fit: cover;
+		}
 
+		.kid-container{
+			width: 100%;
+		}
+	}
+	
+	.content_group{
+		width: 100;
+		margin: 4rem 0 2rem 1rem;
+		.content{
+			margin: 1.0rem 0;
 
+			img{
+				display: none;
+			}
+		}
+	}
 
+	.testimony_container{
 
-// @media (max-width: 700px){
+		.testimony{
 
-//     .button_badges_container {
-//         padding: 0;
-//         width: 100%;
-//         // margin-left: 2%;
-//         margin-top: 5%;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center; 
+			.name{
+				line-height: 2rem;
+				margin: 0 0 0 1rem;
+			}
 
-        
-        
-//         button {
-//             font-size: 1.728rem;
-//             align-self: center; 
-//             width: 75%;
-//         }
+			.title{
+				line-height: 1.8rem;
+				margin: 0 0 0 1rem;
+			}
+		}
+	}
 
-//         .badges {
-//             display: flex;
-//             justify-content: center;
-//             width: 100%;
-
-
-//             .ios {
-//             width: 35%;
-//             // margin-right: 1%;
-//             margin-left: 3%;
-//             }
-//             .android {
-//                 width: 40%;
-//             }            
-//         }
-//     }
-// }
-
-
-
-
-// @media (max-width: 700px) {
-// 	// height: 100vh;
-// 	width: 100%;
-
-// 	flex-direction: column;
-// 	// padding: 5%;
-
-// 	img {
-// 	width: 50%;
-// 	position: initial;
-// 	}
-
-// 	.testimony_text {
-// 	// word-spacing: 10px;
-// 	font-size: 1.92rem;
-// 	width: 95%;
-// 	padding: 3.5%;
-// 	}
-
-// 	.user_info {
-// 	width: 100%;
-// 	font-size: 3.36rem;
-// 	display: flex;
-// 	flex-direction: column;
-// 	align-items: center;
-
-// 	.user_name {
-// 		margin: 0;
-// 		font-weight: 700;
-// 		text-align: center;
-// 		@media (max-width: 510px) {
-// 		font-size: 38px;
-// 		}
-// 	}
-
-// 	.title {
-// 		margin: 0;
-// 		@media (max-width: 510px) {
-// 		font-size: 36px;
-// 		}
-// 	}
-
-// 	img {
-// 		margin: 0;
-// 	}
-// 	}
-
-// 	.testimony_text {
-// 	font-size: 2.3rem;
-// 	font-weight: bold;
-// 	margin: 0;
-// 	text-align: justify;
-
-
-// 	@media (max-width: 510px) {
-// 		font-size: 38px;
-// 		text-align: center;
-// 	}
-// 	}
-// }
-// }
-
-// @media (max-width: 700px) {
-// height: auto;
-// .testimony_text {
-// 	font-size: 50px;
-// }
-
-
-
-
-// @media (max-width: 700px) {
-// 	.our_story_text {
-// 	  width: 100%;
-// 	  // padding: 2%;
-
-
-// 	  h1 {
-// 		font-size: 3.2rem;
-// 		color: white;
-// 	  }
-
-// 	  p {
-// 		font-size: 1.92rem;
-// 	  }
-// 	}
-//   }
-
-// @media (max-width: 700px) {
-// 	flex-direction: column;
-// 	width: 100%;
-// 	img {
-// 	  align-self: center;
-// 	  width: 50%;
-// 	}
-
-// 	div {
-// 	  width: 100%;
-
-// 	  h1 {
-// 		font-size: 3.2rem;
-// 	  }
-
-// 	  p {
-// 		font-size: 1.92rem;
-// 	  }
-// 	}
-//   }
+	.testimony_button_div{
+		
+		.testimony_image{
+			margin: -2rem 0 1rem 10rem;
+		}
+	}
+}
