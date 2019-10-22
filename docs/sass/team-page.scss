@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: center;
 	font-family: nunito;
-	// max-width: 100%;
+	flex-direction: column;
 
 	.team_mission_statement {
 
@@ -13,148 +13,86 @@
 		justify-content: center;
 		align-items: center;
 		position: relative;
-		margin: 120px 0 50px 0;
-		// padding-top: 5%;
 
 		.statement {
-			width: 1000px;
-		 	margin: 5rem 0;
+			width: 65.5vw;
+		 	margin: 4rem 0 8rem 0;
 			display: flex;
 			flex-flow: row nowrap;
-			justify-content: space-evenly;
+			justify-content: space-between;
 
 			.statement2{			
 				display: flex;
 				flex-flow: column nowrap;
-				justify-content: center;
+				justify-content: space-around;
 				align-items: center;
 				width: 45%; 
+				margin: 0 1.5rem 0 0;
 				
 				div{
 					margin: 0 10px;
 					
 					h1 {
-						font-size: 1.8rem;
-						// margin: 0;
+						font-size: 3.6rem;
+						margin: 0 0 3rem 0;
+						font-weight: 700;
 					}
 				
 					p {
-						font-size: 1.1rem;
-						// line-height: 1.5rem;
+						font-size: 1.8rem;
+						line-height: 2.8rem;
+					}
+				}
+			
+
+				.button_badges_container {
+					margin: 3rem 0 0 0;
+					padding: 25px; 
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+
+		
+					button {
+					width: 70%;
+					font-size: 1.76rem;
+					}
+			
+					.badges {
+					width: 70%;					
+
+						.ios {
+							width: 45%;							
+						}
+						.android {
+							width: 55%;
+						}
 					}
 				}
 			}
-  
-		.button_badges_container {
-			// padding: 25px; 
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-  
-		button {
-		  width: 70%;
-		  font-size: 1.1rem;
+			.teamPage_main_pic{
+			width: 55%;
+			}
 		}
-  
-		.badges {
-		  width: 70%;
-		}
-	  }
-	}
-  }
-  
-	h1 {
-	  font-size: 3rem;
-	  color: #4aa810;
-	}  
-
-	p {
-	  font-size: 1.1rem;
-	  line-height: 1.5rem;
-	  // width: 40%;
-	  text-align: justify;
-	}
-  
-	  .teamPage_main_pic {
-		width: 55%;
-		// width: 100%;
-		// margin-right: 1%;
-	  }
-  
-	@media (max-width: 700px) {
-	  display: flex;
-	  flex-direction: column;
-	  // justify-content: space-between;
-	  position: relative;
-	  height: auto;
-	//   padding: 10% 3%;
-  
-	  .how_it_works {
-		width: 100%;
-	  }
-  
-	  .statement {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		height: auto;
-		padding: 0;
-		 
-		p {
-		  background: #5b4eff;
-		  color: white;
-		  font-size: 1.5rem;
-		  text-align: justify;
-		  padding: 10%;
-		}
-
-		.teamPage_main_pic {
-		  width: 75%;
-		  height: auto;
-		  position: initial;
-		  align-self: center;
-		}
-  
-		h1 {
-		  font-size: 2.1rem;
-		  color: #4aa810;
-		//   margin: 10% auto 3% auto;
-		  text-align: center;
-		}
-	}
-  
-	.little_hands {
-		font-size: 2rem;
-		text-align: center;
-		// margin: 10% auto 5%;
-	}
-  
-	  .more_info {
-		width: 100%;
-  
-		img {
-		  width: 100%;
-		}
-	  }
 	}
 }
-
 
 .our_story {
 	background: #5b4eff;
 	color: white;
-	// position: relative;
+	width: 65.5vw;
 	
   
 	h1 {
-	  	font-size: 1.8rem;
+	  	font-size: 3.5rem;
 	  	letter-spacing: 2px;
 		color: white;
+		margin: 4rem 0;
 	}
   
 	.our_story_text {
-		width: 1000px;
+		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 		padding: 1.2rem 0;
@@ -165,9 +103,9 @@
 			align-items: center;
 
 			p {
-				font-size: 1.5rem;		
-				line-height: 2rem;
-				width: 500px;
+				font-size: 3rem;
+				line-height: 3rem;
+				width: 50%;
 				text-align: center;
 			  }
 		}
@@ -175,49 +113,37 @@
   
 	.fireFly_hat {
 	  width: 9%;
-	  position: absolute;
-	  top: 28%;
-	  right: 14%;
+	  position: relative;
+	  top: 50%;
+	  left: 85%;
+	  display: block;
 	  transform: rotate(-10deg);
 	}
 
 	.kid-pics {
-		height: 198px;
-		width: 198px;
+		height: 20rem;
+		width: 100%;
+		object-fit: cover;
 	}
 
 	.kid-container {
 		display: grid;
 		grid-gap: 2px;
-		grid-template-rows: 198px 198px;
+		grid-template-rows: auto auto;
 		grid-auto-flow: column;
 		justify-content: center;
-		margin: 125px 0 0 0;
+		margin: 2rem 0 0 0;
 		padding: 2px;
 		background: white;
-	}
-  
-	@media (max-width: 700px) {
-	  .our_story_text {
-		width: 100%;
-		// padding: 2%;
-
-		h1 {
-		  font-size: 2rem;
-		  color: white;
-		}
-  
-		p {
-		  font-size: 1.2rem;
-		}
-	  }
+		width: 65.5vw;
 	}
 }
-  .content_group {
+
+.content_group {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 50px;
+	margin-top: 6rem;
   
 	.content {
 	  display: flex;
@@ -225,54 +151,33 @@
 	  width: 100%;
 
   
-	  img {
-		width: 20%;
-		padding: 8%;
-		align-self: flex-end;
-	  }
-  
-	  div {
-		width: 70%;
-  
-		h1 {
-		  font-size: 2rem;
-		  color: black;
-		}
-  
-		ul {
-		  li {
-			font-size: 1.2rem;
-			list-style-image: url("../img/contentGroup_bullets.svg");
-			margin: 15px;
-		  }
-		}
-	  }
-  
-	  @media (max-width: 700px) {
-		flex-direction: column;
-		width: 100%;
 		img {
-		  align-self: center;
-		  width: 50%;
+			margin: 0 1rem 0 0;  
+			padding: 8%;
+			align-self: flex-end;
+			width: 45%;
 		}
-  
+	
 		div {
-		  width: 100%;
+			width: 100%;
   
-		  h1 {
-			font-size: 2rem;
-		  }
-  
-		  p {
-			font-size: 1.2rem;
-		  }
+			h1 {
+				margin: 0 0 3rem 0;
+				font-size: 2.8rem;
+				font-weight: 700;
+				color: black;
+			}
+				li {
+				font-size: 1.92rem;
+				list-style-image: url("../img/contentGroup_bullets.svg");
+				margin: 15px;
+			}
 		}
-	  }
 	}
-  }
+}
 
 .button_badges_container {
-    // padding-top: 2.5%;
+    padding-top: 2.5%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -285,7 +190,7 @@
         color:#e2f5d6;
         padding: 0.8rem;
         text-transform: uppercase;
-        font-size:1.2rem;
+        font-size: 1.92rem;
         border: none;
         border-radius:10px;
         opacity:0.92;
@@ -298,9 +203,9 @@
     .badges {
         display: flex;
         cursor: pointer;
-        // align-self: flex-start;
         width: 300px;
-        padding-top: 5px;
+		padding-top: 5px;
+		
         .ios {
             width: 43%;
             margin-left: 3%;
@@ -308,48 +213,7 @@
 
         .android {
             width: 53%;
-        }
-       
-    }
-    
-}
-
-
-
-@media (max-width: 700px){
-
-    .button_badges_container {
-        padding: 0;
-        width: 100%;
-        // margin-left: 2%;
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-
-        
-        
-        button {
-            font-size: 1.08rem;
-            align-self: center; 
-            width: 75%;
-        }
-
-        .badges {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-
-
-            .ios {
-            width: 35%;
-            // margin-right: 1%;
-            margin-left: 3%;
-            }
-            .android {
-                width: 40%;
-            }            
-        }
+        }    
     }
 }
 
@@ -359,88 +223,29 @@
 	flex-flow: row nowrap;
 	align-items: center;
 
+	.reee{
+		font-size: 1.8rem;
+		font-weight: 100;
+		width: 70%;
+		margin: 0 0 0 2rem;
+	}
+
 	.testimony {
-	// width: 80%;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
 
 		.testimony_text {
-			// padding-left: 15px;
-			font-size: 1.1rem;
+			font-size: 1.76rem;
 			line-height: 1.2rem;
-			margin: 0; 
+			margin: 0; 			
 		}
 
 		.name{
 			font-weight: 700;
+			line-height: 2.8rem;
 			margin: 0;
 		}
-
-	@media (max-width: 700px) {
-		// height: 100vh;
-		width: 100%;
-
-		flex-direction: column;
-		// padding: 5%;
-
-		img {
-		width: 50%;
-		position: initial;
-		}
-
-		.testimony_text {
-		// word-spacing: 10px;
-		font-size: 1.2rem;
-		width: 95%;
-		padding: 3.5%;
-		}
-
-		.user_info {
-		width: 100%;
-		font-size: 2.1rem;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-
-		.user_name {
-			margin: 0;
-			font-weight: 700;
-			text-align: center;
-			@media (max-width: 510px) {
-			font-size: 38px;
-			}
-		}
-
-		.title {
-			margin: 0;
-			@media (max-width: 510px) {
-			font-size: 36px;
-			}
-		}
-
-		img {
-			margin: 0;
-		}
-		}
-
-		.testimony_text {
-		font-size: 1.2rem;
-		margin: 0;
-		text-align: justify;
-		@media (max-width: 510px) {
-			font-size: 38px;
-			text-align: center;
-		}
-		}
-	}
-	}
-
-	@media (max-width: 700px) {
-	height: auto;
-	.testimony_text {
-		font-size: 50px;
-	}
 	}
 }
 
@@ -464,12 +269,13 @@
     }
 
     .testimonial_button {
-        width: 300px;
+		height: 5rem;
+        width: 32rem;
         background-color: #4aa810;
         box-shadow: 0px 3px #3e8c0d;
         color:#e2f5d6;
-        padding: 0.8rem;
-        font-size:1.2rem;
+        padding: 1rem;
+        font-size: 1.92rem;
         border: none;
         border-radius:10px;
         opacity:0.92;
@@ -479,4 +285,197 @@
 
 button:active { 
     margin: 3px 0 -3px 0;
+}
+
+// @@@@@@@@@@@@@@@@@@@ MEDIA QUESo @@@@@@@@@@@@
+
+
+@media(max-width: 600px){
+	// body{
+	// 	margin: 0;
+	// 	padding: 0;
+	// 	background: red;
+	// 	width: 110%;
+	// }
+	
+
+	.team_page_container {
+		margin: 0;
+		width: 100%;
+
+		.team_mission_statement .statement{
+		margin: 0;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+
+		.teamPage_main_pic{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.statement2{			
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: 0;
+			
+			h1 {
+					font-size: 3.6rem;
+					// margin: 0 0 2rem 0;
+					font-weight: 700;
+				}
+			
+				p {
+					font-size: 1.8rem;
+					line-height: 2.8rem;
+				}
+
+			.button_badges_container {
+				padding: 25px; 
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+	
+				button {
+				width: 70%;
+				font-size: 1.76rem;
+				}
+		
+				.badges {
+				width: 70%;
+					.ios {
+						width: 45%;
+						// margin-left: 10%;
+					}
+					.android {
+						width: 55%;
+					}
+				}
+			}
+		}
+	}
+}
+	.our_story{
+		width: 100%;
+
+		.our_story_text .our_story_pdiv p{
+			font-size: 1.8rem;
+		}
+
+		.fireFly_hat{
+			width: 20%;
+			top: 50%;
+    		left: 75%;
+		}
+
+		.kid-pics {
+			height: 10rem;
+			width: 100%;
+			object-fit: cover;
+		}
+
+		.kid-container{
+			width: 100%;
+		}
+	}
+	
+	.content_group{
+		width: 100;
+		// margin: 4rem 0 2rem 1rem;
+		.content{
+			margin: 1.0rem 0;
+
+			img{
+				display: none;
+			}
+		}
+	}
+
+	.testimony_container{
+
+		.testimony{
+
+			.name{
+				line-height: 2rem;
+				// margin: 0 0 0 1rem;
+			}
+
+			.title{
+				line-height: 1.8rem;
+				// margin: 0 0 0 1rem;
+			}
+		}
+	}
+
+	// .testimony_button_div{
+		
+	// 	.testimony_image{
+	// 		// margin: -2rem 0 1rem 10rem;
+	// 	}
+	// }
+}
+
+@media(max-width: 800px){
+	.team_page_container{
+		margin: 0;
+	
+		.team_mission_statement{
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			height: auto;
+
+			.statement{
+				display: flex;
+				flex-flow: column wrap;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+
+				.statement2{
+					width: 100%;
+				}
+
+				.teamPage_main_pic{
+					width: 100%;
+					margin: 0;
+					margin: 0 15px 0 0;
+				}
+			}
+			.our_story{
+				width: 100%;
+				margin: 0;
+				padding: 0;
+
+				.kid-pics {
+					height: 10rem;
+					width: 100%;
+					object-fit: cover;
+				}
+		
+				.kid-container{
+					width: 100%;
+				}
+			}
+
+			.content_group{
+				width: 100%;
+				margin: 8rem 0 4rem 0;
+
+				// .content{
+
+				// }
+			}
+		}
+	}
 }

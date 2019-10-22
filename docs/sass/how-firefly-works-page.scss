@@ -5,28 +5,51 @@
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 8%;
-    margin: 120px 0 50px 0;
+    // margin: 120px 0 50px 0;
+    margin-bottom: 50px;
+
+    @include mobileM {
+      flex-direction: column-reverse;
+      margin: 0 5% 50px;
+    }
 
     .text {
       width: 45%;
       display: flex;
       flex-direction: column;
-      word-spacing: 2px;
+      // word-spacing: 2px;
       margin-right: 10px;
+
+      @include mobileM {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+      }
 
       h1 {
         color: #4AA810;
-        font-size: 1.8rem;
-      }
+        font-size: 2.88rem;
+        margin-bottom: 2rem;
 
+        @include mobileM {
+          font-size: 3rem;
+          margin-top: 1rem;
+        }
+      }
+      
       p {
-        font-size: 1.1rem;
+        font-size: 1.76rem;
         width: 95%;
+          
         text-align: justify;
         line-height: 1.5rem;
-        margin-top: 0;
+        margin-bottom: 2rem;
+
+        @include mobileM {
+          text-align: center;
+        }
       }
-    } 
+    }
   }
 
   .button_badges_container {
@@ -43,11 +66,13 @@
       color:#e2f5d6;
       padding: 0.8rem;
       text-transform: uppercase;
-      font-size:1.2rem;
+      font-size:1.92rem;
       border: none;
       border-radius:10px;
       opacity:0.92;
       outline: none;  
+
+
     }
 
     button:active {
@@ -69,36 +94,6 @@
         width: 53%;
       }
     }
-
-    @media (max-width: 700px) {
-      padding: 0;
-      width: 100%;
-      margin-top: 5%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      button {
-        font-size: 1.08rem;
-        align-self: center; 
-        width: 75%;
-      }
-
-      .badges {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-
-        .ios {
-          width: 35%;
-          margin-left: 3%;
-        }
-
-        .android {
-          width: 40%;
-        }
-      }
-    }
   }
 
   .firefly_tutorial_container {
@@ -114,8 +109,12 @@
 
       p {
         padding: 5% 17%;
-        font-size: 1.5rem;
+        font-size: 2.4rem;
         text-align: center;
+
+        @include mobileM {
+          font-size: 1.6rem;
+        }
       }
 
       img {
@@ -124,6 +123,12 @@
         transform: rotate(-10deg);
         bottom: -13%;
         right: 10%;
+
+        @include mobileM {
+          width: 18%;
+          bottom: -24%;
+          right: 8%;
+        }
       }
     }
 
@@ -133,9 +138,18 @@
       align-items: center;
       margin-top: 10%;
 
+      @include mobileM {
+        margin-top: 5%
+      }
+
       h1 {
-        font-size: 2.5rem;
+        font-size: 4rem;
         color: #4AA810;
+
+        @include mobileM {
+          text-align: center;
+          font-size: 3rem;
+        }
       }
 
       .content_container {
@@ -144,11 +158,21 @@
         width: 100%;
         margin-bottom: 15%;
 
+        @include mobileM {
+          flex-direction: column;
+          align-items: center;
+        }
+
         .content {
             
           h2 {
-            font-size: 1.2rem;
+            color: black;
+            font-size: 1.92rem;
             text-align: center;
+
+            @include mobileM {
+              margin-bottom: 1rem;
+            }
           }
         }
       }        
@@ -156,8 +180,12 @@
 
     .tut_div1, .tut_div2, .tut_div3 {
 
+      @include mobileM {
+        padding: 0 5%;
+      }
+
       h1 {
-        margin-bottom:10%; 
+        margin:5% 0 5%;
       }
 
       .content_container {
@@ -168,10 +196,18 @@
           flex-direction: column;
           align-items: center;
           justify-content: flex-end;
-            
+
+          @include mobileM {
+            width: 100%;
+            flex-direction: column-reverse;
+          }
 
           img {
             width: 100%;
+
+            @include mobileM {
+              margin-bottom: 3.2rem;
+            }
           }
         }
       }
@@ -185,10 +221,18 @@
           padding: 0;
           margin-left: 7%;
 
+          @include mobileM {
+            margin-left: 0;
+          }
+
           .block_container {
             display: flex;
             width: 100%;
             height: 100%;
+            
+            @include mobileM {
+              justify-content: center;
+            }
               
             .img3 {
               align-self: flex-end;
@@ -208,6 +252,10 @@
 
     .tut_div2 {
       background: #F7F6FF;
+
+      h1 {
+
+      }
     }  
   }
 
@@ -218,6 +266,10 @@
     width: 100%;
     margin: 25px 0 55px 0;
 
+    @include mobileM {
+      position: relative;
+    }
+
     .testimony_image{
       display: flex;
       justify-content: flex-start;
@@ -227,6 +279,12 @@
       img {
         height: 75px;
         transform: rotate(-7deg);
+
+        @include mobileM {
+          position: absolute;
+          left: 2%;
+          bottom: 90%;
+        }
       }
     }
 
@@ -236,11 +294,13 @@
       box-shadow: 0px 3px #3e8c0d;
       color:#e2f5d6;
       padding: 0.8rem;
-      font-size:1.2rem;
+      font-size:1.92rem;
       border: none;
       border-radius:10px;
       opacity:0.92;
       outline: none;
     }
   }
+
 }
+
