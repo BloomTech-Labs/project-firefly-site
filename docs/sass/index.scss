@@ -72,13 +72,25 @@
   .mission-wrapper {
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
+    margin-top: 1rem;
+
+    @include mobile {
+        margin: 0 auto; 
+        text-align: center; 
+        flex-direction: column-reverse; 
+        justify-content: center;
+    }
 
     .mission-left {
       display: flex;
       flex-direction: column;
       width: 50%;
       margin: 0 auto;
+
+      @include mobile {
+          width: 75%; 
+          margin-top: 3rem; 
+      }
 
       h1 {
         color: #4aa80f;
@@ -113,6 +125,11 @@
 
     .mission-right {
       width: 61%;
+
+      @include mobile {
+          width: 100%; 
+          margin: 0 auto; 
+      }
     }
   }
 
@@ -124,6 +141,10 @@
       font-size: 3.5rem;
       margin-bottom: 3rem; 
       font-weight: 900; 
+
+      @include mobile {
+          text-align: center; 
+      }
     }
 
     .icon-wrapper {
@@ -131,9 +152,18 @@
       justify-content: space-between;
       align-items: center;
 
+      @include mobile {
+        flex-direction: column-reverse; 
+        }
+
       .icon {
         width: 30%;
         font-size: 2rem;
+
+        @include mobile {
+            width: 75%; 
+            margin-top: 3rem; 
+        }
 
         p {
             font-size: 2rem; 
@@ -162,17 +192,36 @@
       justify-content: space-around;
       margin-top: 3rem; 
 
+      @include mobile {
+          flex-direction: column;
+          width: 100%;  
+      }
+
       .hiw-video {
         width: 45%;
         border-radius: 1.5rem; 
+
+        @include mobile {
+            margin: 0 auto; 
+            width: 75%;
+        }
       }
 
       .hiw-text-container {
         width: 45%; 
 
+        @include mobile {
+            margin: 0 auto; 
+            width: 75%;
+        }
+
         .hiw-text {
             font-size: 2rem;
             color: white;  
+
+            @include mobile {
+                margin-top: 3rem; 
+            }
         }
       }
     }
@@ -213,6 +262,30 @@
             }
         }
 
+    }
+  }
+
+  .onboarding {
+    
+    .cta-btn-wrapper {
+        text-align: center; 
+        margin: 0 auto; 
+        width: 100%; 
+
+        .join {
+            margin: 0 auto;
+            margin-top: 5rem; 
+            text-align: center;
+            width: 300px;
+            background-color: #4aa810;
+            box-shadow: 0px 3px #3e8c0d;
+            color: #e2f5d6;
+            padding: 0.8rem;
+            font-size: 2rem;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 5rem; 
+        }
     }
   }
 }
