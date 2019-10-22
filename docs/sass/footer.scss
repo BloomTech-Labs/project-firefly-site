@@ -61,7 +61,7 @@ footer {
     padding-bottom: 10px;
     
     nav {
-      width: 500px;
+      width: 400px;
       @include flex(column, center, center);
   
       .footer-row {
