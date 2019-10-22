@@ -164,6 +164,7 @@
 			h1 {
 				margin: 0 0 3rem 0;
 				font-size: 2.8rem;
+				font-weight: 700;
 				color: black;
 			}
 				li {
@@ -295,8 +296,6 @@ button:active {
 	// 	padding: 0;
 	// 	background: red;
 	// 	width: 110%;
-	// 	display: flex;
-	// 	justify-content: center;
 	// }
 	
 
@@ -326,12 +325,9 @@ button:active {
 			width: 100%;
 			margin: 0;
 			
-			div{
-				margin: 0 10px;
-				
-				h1 {
+			h1 {
 					font-size: 3.6rem;
-					margin: 0 0 2rem 0;
+					// margin: 0 0 2rem 0;
 					font-weight: 700;
 				}
 			
@@ -339,8 +335,6 @@ button:active {
 					font-size: 1.8rem;
 					line-height: 2.8rem;
 				}
-			}
-		
 
 			.button_badges_container {
 				padding: 25px; 
@@ -395,7 +389,7 @@ button:active {
 	
 	.content_group{
 		width: 100;
-		margin: 4rem 0 2rem 1rem;
+		// margin: 4rem 0 2rem 1rem;
 		.content{
 			margin: 1.0rem 0;
 
@@ -411,12 +405,12 @@ button:active {
 
 			.name{
 				line-height: 2rem;
-				margin: 0 0 0 1rem;
+				// margin: 0 0 0 1rem;
 			}
 
 			.title{
 				line-height: 1.8rem;
-				margin: 0 0 0 1rem;
+				// margin: 0 0 0 1rem;
 			}
 		}
 	}
@@ -424,7 +418,7 @@ button:active {
 	.testimony_button_div{
 		
 		.testimony_image{
-			margin: -2rem 0 1rem 10rem;
+			// margin: -2rem 0 1rem 10rem;
 		}
 	}
 }
@@ -478,9 +472,9 @@ button:active {
 				width: 100%;
 				margin: 8rem 0 4rem 0;
 
-				.content{
+				// .content{
 
-				}
+				// }
 			}
 		}
 	}

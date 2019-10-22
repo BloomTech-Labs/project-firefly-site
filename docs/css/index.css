@@ -433,6 +433,7 @@ footer nav .copyright {
 .content_group .content div h1 {
   margin: 0 0 3rem 0;
   font-size: 2.8rem;
+  font-weight: 700;
   color: black;
 }
 .content_group .content div li {
@@ -567,15 +568,11 @@ button:active {
     width: 100%;
     margin: 0;
   }
-  .team_page_container .team_mission_statement .statement .statement2 div {
-    margin: 0 10px;
-  }
-  .team_page_container .team_mission_statement .statement .statement2 div h1 {
+  .team_page_container .team_mission_statement .statement .statement2 h1 {
     font-size: 3.6rem;
-    margin: 0 0 2rem 0;
     font-weight: 700;
   }
-  .team_page_container .team_mission_statement .statement .statement2 div p {
+  .team_page_container .team_mission_statement .statement .statement2 p {
     font-size: 1.8rem;
     line-height: 2.8rem;
   }
@@ -622,7 +619,6 @@ button:active {
 
   .content_group {
     width: 100;
-    margin: 4rem 0 2rem 1rem;
   }
   .content_group .content {
     margin: 1rem 0;
@@ -633,15 +629,9 @@ button:active {
 
   .testimony_container .testimony .name {
     line-height: 2rem;
-    margin: 0 0 0 1rem;
   }
   .testimony_container .testimony .title {
     line-height: 1.8rem;
-    margin: 0 0 0 1rem;
-  }
-
-  .testimony_button_div .testimony_image {
-    margin: -2rem 0 1rem 10rem;
   }
 }
 @media (max-width: 800px) {
