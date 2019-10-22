@@ -6,3 +6,17 @@
   align-items: $ai;
   justify-content: $jc;
 }
+
+//Breakpoints
+
+@mixin mobileM {
+  @media (max-width: 500px) { @content; }
+}
+
+@mixin mobile {
+  @media (max-width: 812px) { @content; }
+} 
+
+@mixin tablet {
+  @media (max-width: 1112px) { @content; }
+}
