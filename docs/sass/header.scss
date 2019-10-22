@@ -8,12 +8,14 @@ header {
     //left side of navigation
     a {
       img {
-          height: 100px; 
-          width: 250px; 
+        width: 250px; 
+        height: auto; 
       }
     }
     //right side of navigation
     nav {
+      @include flex(row, center, space-between);
+      flex-wrap: nowrap;
       width: 50%; 
       font-weight: 900;
       
@@ -21,7 +23,6 @@ header {
         text-decoration: none; 
         color: $nav-font; 
         font-size: 16px; 
-        margin: 0 10px;  
       }
       //buttons
       .sign-in {
@@ -41,11 +42,40 @@ header {
   }
   
   @include tablet {
-
+    a { 
+      img { 
+        width: 30%;
+      }
+    }
+    nav {
+      width: 60%;
+      a {
+        margin: 0 5px;
+      }
+    }
   }
 
   @include mobile {
-
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      //left side of navigation
+      a {
+        img {
+          width: 100%; 
+        }
+      }
+      //right side of navigation
+      nav {
+        @include flex(column, center, center);
+        width: 40%; 
+        a{
+          margin: 10px;
+        }
+      }
+    }
   }
 
   @include mobileM { 
