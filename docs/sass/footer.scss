@@ -36,4 +36,16 @@ footer {
     font-size: 1rem;
     text-align: center;
   }
+
+  @include tablet {
+
+  }
+
+  @include mobile {
+
+  }
+
+  @include mobileM { 
+    
+  }
 }

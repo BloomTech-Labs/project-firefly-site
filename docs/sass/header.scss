@@ -39,4 +39,16 @@ header {
       }
     }
   }
+  
+  @include tablet {
+
+  }
+
+  @include mobile {
+
+  }
+
+  @include mobileM { 
+    
+  }
 }
