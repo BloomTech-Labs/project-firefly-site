@@ -4,10 +4,10 @@ footer {
   padding-bottom: 25px;
   border: 1px solid $ebony-clay;
   @include flex(column, center, center);
+  white-space: nowrap;
   
   nav {
     width: 1000px;
-    margin: 0 auto;
     @include flex(row, flex-start, space-between);
 
     .footer-row {
@@ -35,5 +35,46 @@ footer {
     color: $copyright-color;
     font-size: 1rem;
     text-align: center;
+  }
+
+  @include tablet {
+    nav {
+      width: 800px;
+      justify-content: space-evenly;
+      
+      .footer-row {
+        justify-content: space-between;
+        width: 50%;
+  
+        .footer-column {
+          padding: 20px;
+          
+          a {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  @include mobile {
+    padding-bottom: 10px;
+    
+    nav {
+      width: 400px;
+      @include flex(column, center, center);
+  
+      .footer-row {
+        @include flex(column, center, center);
+  
+        .footer-column {
+          padding: 15px;
+        }
+      }   
+    }  
+  }
+
+  @include mobileM { 
+  
   }
 }
