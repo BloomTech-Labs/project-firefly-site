@@ -7,7 +7,7 @@ footer {
   white-space: nowrap;
   
   nav {
-    width: 1000px;
+    width: 1024px;
     @include flex(row, flex-start, space-between);
 
     .footer-row {
