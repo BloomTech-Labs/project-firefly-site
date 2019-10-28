@@ -701,12 +701,6 @@ button:active {
   padding-top: 8%;
   margin-bottom: 50px;
 }
-@media only screen and (max-width: 800px) {
-  .how_firefly_works_container .mission_statement {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 @media (max-width: 500px) {
   .how_firefly_works_container .mission_statement {
     flex-direction: column-reverse;
@@ -960,6 +954,110 @@ button:active {
   border-radius: 10px;
   opacity: 0.92;
   outline: none;
+}
+.how_firefly_works_container .all-testimonies {
+  margin: 50px 100px 0px 100px;
+}
+.how_firefly_works_container .all-testimonies .testimony_container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.1rem;
+  margin: 15px;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name,
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
+  margin: 0;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
+  font-weight: 700;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+  padding-left: 15px;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 5%;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony img {
+    width: 50%;
+    position: initial;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+    word-spacing: 10px;
+    font-size: 1.2rem;
+    width: 95%;
+    padding: 3.5%;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info {
+    width: 100%;
+    font-size: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) and (max-width: 510px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
+    font-size: 38px;
+  }
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) and (max-width: 510px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info img {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: justify;
+  }
+}
+@media (max-width: 700px) and (max-width: 510px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+    font-size: 38px;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container {
+    height: auto;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony_text {
+    font-size: 50px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
