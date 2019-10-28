@@ -875,6 +875,7 @@ button:active {
   color: #4AA810;
   font-size: 2.88rem;
   margin-bottom: 2rem;
+  font-weight: bold;
 }
 @media (max-width: 500px) {
   .how_firefly_works_container .mission_statement .text h1 {
@@ -886,7 +887,6 @@ button:active {
   font-size: 1.76rem;
   width: 95%;
   text-align: justify;
-  line-height: 1.5rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 500px) {
@@ -894,14 +894,10 @@ button:active {
     text-align: center;
   }
 }
-.how_firefly_works_container .button_badges_container {
+.how_firefly_works_container .button_badges_container-how {
   padding-top: 2.5%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
-.how_firefly_works_container .button_badges_container button {
+.how_firefly_works_container .button_badges_container-how button {
   width: 300px;
   background-color: #4aa810;
   box-shadow: 0px 3px #3e8c0d;
@@ -914,21 +910,14 @@ button:active {
   opacity: 0.92;
   outline: none;
 }
-.how_firefly_works_container .button_badges_container button:active {
+.how_firefly_works_container .button_badges_container-how button:active {
   margin: 3px 0 -3px 0;
 }
-.how_firefly_works_container .button_badges_container .badges {
+.how_firefly_works_container .button_badges_container-how .badges {
   display: flex;
   cursor: pointer;
   width: 300px;
   padding-top: 5px;
-}
-.how_firefly_works_container .button_badges_container .badges .ios {
-  width: 43%;
-  margin-left: 3%;
-}
-.how_firefly_works_container .button_badges_container .badges .android {
-  width: 53%;
 }
 .how_firefly_works_container .firefly_tutorial_container {
   margin-top: 10%;
@@ -979,6 +968,7 @@ button:active {
 .how_firefly_works_container .firefly_tutorial_container .tutorial_divs h1 {
   font-size: 4rem;
   color: #4AA810;
+  font-weight: bold;
 }
 @media (max-width: 500px) {
   .how_firefly_works_container .firefly_tutorial_container .tutorial_divs h1 {
@@ -990,7 +980,6 @@ button:active {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-bottom: 15%;
 }
 @media (max-width: 500px) {
   .how_firefly_works_container .firefly_tutorial_container .tutorial_divs .content_container {
@@ -1002,6 +991,8 @@ button:active {
   color: black;
   font-size: 1.92rem;
   text-align: center;
+  font-weight: bold;
+  padding: 10px 0 25px 0;
 }
 @media (max-width: 500px) {
   .how_firefly_works_container .firefly_tutorial_container .tutorial_divs .content_container .content h2 {
@@ -1105,6 +1096,110 @@ button:active {
   border-radius: 10px;
   opacity: 0.92;
   outline: none;
+}
+.how_firefly_works_container .all-testimonies {
+  margin: 50px 100px 0px 100px;
+}
+.how_firefly_works_container .all-testimonies .testimony_container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.1rem;
+  margin: 15px;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name,
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
+  margin: 0;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
+  font-weight: 700;
+}
+.how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+  padding-left: 15px;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 5%;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony img {
+    width: 50%;
+    position: initial;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+    word-spacing: 10px;
+    font-size: 1.2rem;
+    width: 95%;
+    padding: 3.5%;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info {
+    width: 100%;
+    font-size: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) and (max-width: 510px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
+    font-size: 38px;
+  }
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) and (max-width: 510px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info img {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: justify;
+  }
+}
+@media (max-width: 700px) and (max-width: 510px) {
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+    font-size: 38px;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .how_firefly_works_container .all-testimonies .testimony_container {
+    height: auto;
+  }
+  .how_firefly_works_container .all-testimonies .testimony_container .testimony_text {
+    font-size: 50px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
