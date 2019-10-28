@@ -30,6 +30,7 @@
         color: #4AA810;
         font-size: 2.88rem;
         margin-bottom: 2rem;
+        font-weight: bold;
 
         @include mobileM {
           font-size: 3rem;
@@ -42,7 +43,6 @@
         width: 95%;
           
         text-align: justify;
-        line-height: 1.5rem;
         margin-bottom: 2rem;
 
         @include mobileM {
@@ -52,12 +52,9 @@
     }
   }
 
-  .button_badges_container {
+  .button_badges_container-how {
     padding-top: 2.5%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+
 
     button {
       width: 300px;
@@ -85,14 +82,14 @@
       width: 300px;
       padding-top: 5px;
 
-      .ios {
-        width: 43%;
-        margin-left: 3%;
-      }
+      // .ios {
+      //   width: 43%;
+      //   margin-left: 3%;
+      // }
 
-      .android {
-        width: 53%;
-      }
+      // .android {
+      //   width: 53%;
+      // }
     }
   }
 
@@ -145,6 +142,7 @@
       h1 {
         font-size: 4rem;
         color: #4AA810;
+        font-weight: bold;
 
         @include mobileM {
           text-align: center;
@@ -156,7 +154,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        margin-bottom: 15%;
+        // margin-bottom: 15%;
 
         @include mobileM {
           flex-direction: column;
@@ -164,11 +162,14 @@
         }
 
         .content {
+      
             
           h2 {
             color: black;
             font-size: 1.92rem;
             text-align: center;
+            font-weight: bold;
+            padding: 10px 0 25px 0;
 
             @include mobileM {
               margin-bottom: 1rem;
