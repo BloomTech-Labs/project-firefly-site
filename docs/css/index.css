@@ -329,7 +329,7 @@ footer .copyright {
 @media (max-width: 812px) {
   .container .mission-wrapper {
     margin: 0 auto;
-    text-align: center;
+    margin-top: -3rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -351,13 +351,20 @@ footer .copyright {
   font-size: 3.5rem;
   font-weight: 900;
 }
+.container .mission-wrapper .mission-left .latin {
+  margin: 0;
+}
 .container .mission-wrapper .mission-left p {
   margin-top: 2rem;
-  width: 95%;
   font-size: 2rem;
 }
 .container .mission-wrapper .mission-left p em {
   font-style: italic;
+}
+@media (max-width: 812px) {
+  .container .mission-wrapper .mission-left p {
+    margin-left: 0;
+  }
 }
 @media (max-width: 812px) {
   .container .mission-wrapper .mission-left p {
@@ -399,10 +406,14 @@ footer .copyright {
 .container .icon-container {
   margin-top: 8rem;
 }
+@media (max-width: 1112px) {
+  .container .icon-container {
+    margin: 0 auto;
+  }
+}
 .container .icon-container h2 {
   color: #4aa810;
   font-size: 3.5rem;
-  margin-bottom: 3rem;
   font-weight: 900;
 }
 @media (max-width: 812px) {
