@@ -250,10 +250,6 @@
       display: flex;
       align-items: flex-end;
       justify-content: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
       .testimony {
         // width: 80%;
         display: flex;
@@ -262,42 +258,15 @@
         align-items: center;
         font-size: 1.1rem;
         margin: 15px;
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
         .user_info {
           display: flex;
           flex-direction: column;
           align-items: center;
           font-size: 1.1rem;
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
           .user_name,
           .title {
             margin: 0;
           }
-<<<<<<< HEAD
-
-          .user_name {
-            font-weight: 700;
-          }
-        }
-        .testimony_text {
-          padding-left: 15px;
-          font-size: 2rem;
-          line-height: 1.2;
-        }
-        @media (max-width: 750px) {
-          // height: 100vh;
-          width: 100%;
-
-          flex-direction: column;
-          padding: 5%;
-
-=======
           .user_name {
             font-weight: 700;
           }
@@ -312,25 +281,16 @@
           width: 100%;
           flex-direction: column;
           padding: 5%;
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
           img {
             width: 50%;
             position: initial;
           }
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
           .testimony_text {
               word-spacing: 10px;
               // font-size: 1.2rem;
               width: 95%;
               padding: 3.5%;
             }
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
             .user_info {
               width: 100%;
               font-size: 2.1rem;
@@ -338,10 +298,6 @@
               flex-direction: column;
               align-items: center;
               margin-bottom: 10px;
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
               .user_name {
                 margin: 0;
                 font-weight: bold;
@@ -351,10 +307,6 @@
                   font-size: 2.2rem;
                 }
               }
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
               .title {
                 margin: 0;
                 @media (max-width: 510px) {
@@ -362,18 +314,10 @@
                   text-align: center;
                 }
               }
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
               img {
                 margin: 0;
               }
             }
-<<<<<<< HEAD
-
-=======
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
             .testimony_text {
               margin: 0;
               // text-align: justify;
@@ -387,8 +331,4 @@
         }
     }
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> dd2f6f79ae9bf4136cd7f3ffb690400d20c3f79b
