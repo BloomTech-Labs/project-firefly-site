@@ -968,7 +968,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 8%;
+  padding-top: 2%;
   margin-bottom: 50px;
 }
 @media (max-width: 500px) {
@@ -979,12 +979,12 @@ body {
 }
 @media (max-width: 800px) {
   .how_firefly_works_container .mission_statement {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
   .how_firefly_works_container .mission_statement .img-tim-fix {
     width: 100%;
-    margin-bottom: 60px;
+    margin-top: 60px;
   }
 }
 .how_firefly_works_container .mission_statement .text {
