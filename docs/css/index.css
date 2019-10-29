@@ -3,21 +3,87 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -25,8 +91,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -34,16 +109,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -55,19 +134,23 @@ table {
 
 * {
   box-sizing: border-box;
-  margin: 0 auto;
 }
 
 html {
   font-size: 62.5%;
 }
 
-html, body {
+html,
+body {
   font-family: "Nunito", sans-serif;
   color: #23293B;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Nunito", sans-serif;
   color: #4aa810;
 }
@@ -894,7 +977,7 @@ button:active {
   }
 }
 .how_firefly_works_container .mission_statement .text h1 {
-  color: #4AA810;
+  color: #4aa810;
   font-size: 2.88rem;
   margin-bottom: 2rem;
   font-weight: bold;
@@ -945,7 +1028,7 @@ button:active {
   margin-top: 10%;
 }
 .how_firefly_works_container .firefly_tutorial_container .text_container {
-  background: #5B4EFF;
+  background: #5b4eff;
   color: white;
   font-size: 2.1rem;
   display: flex;
@@ -989,7 +1072,7 @@ button:active {
 }
 .how_firefly_works_container .firefly_tutorial_container .tutorial_divs h1 {
   font-size: 4rem;
-  color: #4AA810;
+  color: #4aa810;
   font-weight: bold;
 }
 @media (max-width: 500px) {
@@ -1022,14 +1105,20 @@ button:active {
   }
 }
 @media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1, .how_firefly_works_container .firefly_tutorial_container .tut_div2, .how_firefly_works_container .firefly_tutorial_container .tut_div3 {
+  .how_firefly_works_container .firefly_tutorial_container .tut_div1,
+.how_firefly_works_container .firefly_tutorial_container .tut_div2,
+.how_firefly_works_container .firefly_tutorial_container .tut_div3 {
     padding: 0 5%;
   }
 }
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 h1, .how_firefly_works_container .firefly_tutorial_container .tut_div2 h1, .how_firefly_works_container .firefly_tutorial_container .tut_div3 h1 {
+.how_firefly_works_container .firefly_tutorial_container .tut_div1 h1,
+.how_firefly_works_container .firefly_tutorial_container .tut_div2 h1,
+.how_firefly_works_container .firefly_tutorial_container .tut_div3 h1 {
   margin: 5% 0 5%;
 }
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content, .how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content, .how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content {
+.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content,
+.how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content,
+.how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -1037,16 +1126,22 @@ button:active {
   justify-content: flex-end;
 }
 @media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content, .how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content, .how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content {
+  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content,
+.how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content,
+.how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content {
     width: 100%;
     flex-direction: column-reverse;
   }
 }
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content img, .how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content img, .how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content img {
+.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content img,
+.how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content img,
+.how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content img {
   width: 100%;
 }
 @media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content img, .how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content img, .how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content img {
+  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content img,
+.how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content img,
+.how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content img {
     margin-bottom: 3.2rem;
   }
 }
@@ -1076,7 +1171,7 @@ button:active {
   width: 55%;
 }
 .how_firefly_works_container .firefly_tutorial_container .tut_div2 {
-  background: #F7F6FF;
+  background: #f7f6ff;
 }
 .how_firefly_works_container .testimony_button_div {
   display: flex;
@@ -1169,6 +1264,7 @@ button:active {
     position: initial;
   }
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
+    word-spacing: 10px;
     width: 95%;
     padding: 3.5%;
   }
@@ -1178,16 +1274,18 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
   }
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
     margin: 0;
-    font-weight: 700;
+    font-weight: bold;
+    margin-bottom: -5px;
     text-align: center;
   }
 }
 @media (max-width: 750px) and (max-width: 510px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
-    font-size: 38px;
+    font-size: 2.2rem;
   }
 }
 @media (max-width: 750px) {
@@ -1197,7 +1295,8 @@ button:active {
 }
 @media (max-width: 750px) and (max-width: 510px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
-    font-size: 36px;
+    font-size: 1em;
+    text-align: center;
   }
 }
 @media (max-width: 750px) {
@@ -1207,14 +1306,14 @@ button:active {
 }
 @media (max-width: 750px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-    font-size: 1.2rem;
     margin: 0;
-    text-align: justify;
   }
 }
 @media (max-width: 750px) and (max-width: 510px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-    font-size: 2rem;
+    font-size: 1.72rem;
+    letter-spacing: normal;
+    word-spacing: 2px;
   }
 }
 
