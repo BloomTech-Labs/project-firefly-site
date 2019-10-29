@@ -880,6 +880,16 @@ button:active {
     margin: 0 5% 50px;
   }
 }
+@media (max-width: 800px) {
+  .how_firefly_works_container .mission_statement {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .how_firefly_works_container .mission_statement .img-tim-fix {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}
 .how_firefly_works_container .mission_statement .text {
   width: 45%;
   display: flex;
@@ -891,6 +901,11 @@ button:active {
     text-align: center;
     width: 100%;
     margin: 0;
+  }
+}
+@media (max-width: 800px) {
+  .how_firefly_works_container .mission_statement .text {
+    width: 75%;
   }
 }
 .how_firefly_works_container .mission_statement .text h1 {
@@ -906,7 +921,7 @@ button:active {
   }
 }
 .how_firefly_works_container .mission_statement .text p {
-  font-size: 1.76rem;
+  font-size: 2rem;
   width: 95%;
   text-align: justify;
   margin-bottom: 2rem;
@@ -918,6 +933,7 @@ button:active {
 }
 .how_firefly_works_container .button_badges_container-how {
   padding-top: 2.5%;
+  display: flex;
 }
 .how_firefly_works_container .button_badges_container-how button {
   width: 300px;
@@ -1155,7 +1171,7 @@ button:active {
 }
 .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
   padding-left: 15px;
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 1.2;
 }
 @media (max-width: 750px) {

@@ -12,7 +12,14 @@
       flex-direction: column-reverse;
       margin: 0 5% 50px;
     }
-
+      @media (max-width: 800px) {
+        flex-direction: column-reverse;
+        align-items:center;
+        .img-tim-fix {
+          width:100%;
+          margin-bottom:60px;
+        }
+      }
     .text {
       width: 45%;
       display: flex;
@@ -24,6 +31,9 @@
         text-align: center;
         width: 100%;
         margin: 0;
+      }
+      @media (max-width: 800px) {
+      width: 75%;
       }
 
       h1 {
@@ -39,7 +49,7 @@
       }
       
       p {
-        font-size: 1.76rem;
+        font-size: 2rem;
         width: 95%;
           
         text-align: justify;
@@ -54,7 +64,7 @@
 
   .button_badges_container-how {
     padding-top: 2.5%;
-
+    display:flex;
 
     button {
       width: 300px;
@@ -337,7 +347,7 @@
       }
       .testimony_text {
         padding-left: 15px;
-        font-size: 1.7rem;
+        font-size: 2rem;
         line-height: 1.2;
       }
       @media (max-width: 750px) {
@@ -399,8 +409,7 @@
     }
 
     @media (max-width: 700px) {
-      .testimony_text {
-      }
+
     }
   }
 }
