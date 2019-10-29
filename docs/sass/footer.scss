@@ -16,9 +16,14 @@ footer {
       .footer-column {
         @include flex(column, center, center);
         padding: 25px;
+
+        .footer-head {
+          color: green; 
+          font-weight: 900;
+        }
         
         a {
-          color: $footer-font-color;
+          color: white;
           font-size: 1.6rem;
           padding: 10px;
         }
@@ -27,12 +32,11 @@ footer {
     
     .footer-logo {
       width: 10%;
-
     }
     
   }
   .copyright {
-    color: $copyright-color;
+    color: white;
     font-size: 1rem;
     text-align: center;
   }
