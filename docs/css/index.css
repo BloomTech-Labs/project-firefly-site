@@ -466,14 +466,18 @@ footer .copyright {
   margin-bottom: 5rem;
 }
 
-.team_page_container {
+body {
   display: flex;
-  justify-content: center;
-  font-family: nunito;
   flex-direction: column;
+  align-items: center;
+}
+
+.team_page_container {
+  font-family: nunito;
+  max-width: 1024px;
 }
 .team_page_container .team_mission_statement {
-  max-width: 100%;
+  max-width: 1024px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -481,11 +485,12 @@ footer .copyright {
   position: relative;
 }
 .team_page_container .team_mission_statement .statement {
-  width: 65.5vw;
+  max-width: 1024px;
   margin: 4rem 0 8rem 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: space-between;
 }
 .team_page_container .team_mission_statement .statement .statement2 {
   display: flex;
@@ -513,7 +518,7 @@ footer .copyright {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .team_page_container .team_mission_statement .statement .statement2 .button_badges_container button {
   width: 70%;
@@ -535,10 +540,11 @@ footer .copyright {
 .our_story {
   background: #5b4eff;
   color: white;
-  width: 65.5vw;
+  max-width: 1024px;
 }
 .our_story h1 {
   font-size: 3.5rem;
+  font-weight: 700;
   letter-spacing: 2px;
   color: white;
   margin: 4rem 0;
@@ -555,17 +561,18 @@ footer .copyright {
   align-items: center;
 }
 .our_story .our_story_text .our_story_pdiv p {
-  font-size: 3rem;
+  font-size: 2.4rem;
   line-height: 3rem;
   width: 50%;
   text-align: center;
 }
 .our_story .fireFly_hat {
   width: 9%;
-  position: relative;
-  top: 50%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 27%;
   left: 85%;
-  display: block;
   transform: rotate(-10deg);
 }
 .our_story .kid-pics {
@@ -576,13 +583,11 @@ footer .copyright {
 .our_story .kid-container {
   display: grid;
   grid-gap: 2px;
-  grid-template-rows: auto auto;
+  grid-template-rows: 200px 200px;
   grid-auto-flow: column;
-  justify-content: center;
-  margin: 2rem 0 0 0;
+  margin: 10rem 0 0 0;
   padding: 2px;
   background: white;
-  width: 65.5vw;
 }
 
 .content_group {
@@ -590,6 +595,7 @@ footer .copyright {
   flex-direction: column;
   align-items: center;
   margin-top: 6rem;
+  max-width: 1024px;
 }
 .content_group .content {
   display: flex;
@@ -659,11 +665,11 @@ footer .copyright {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  margin-left: 10%;
 }
 .testimony_container .reee {
   font-size: 1.8rem;
   font-weight: 100;
-  width: 70%;
   margin: 0 0 0 2rem;
 }
 .testimony_container .testimony {
@@ -675,17 +681,23 @@ footer .copyright {
   font-size: 1.76rem;
   line-height: 1.2rem;
   margin: 0;
+  width: 120%;
 }
 .testimony_container .testimony .name {
   font-weight: 700;
+  font-size: 1.9rem;
   line-height: 2.8rem;
   margin: 0;
+}
+.testimony_container .testimony .title {
+  font-size: 1.7rem;
 }
 
 .testimony_button_div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
   margin: 25px 0 55px 0;
 }
@@ -790,6 +802,7 @@ button:active {
   }
   .our_story .kid-container {
     width: 100%;
+    grid-template-rows: 100px 100px;
   }
 
   .content_group {
@@ -834,20 +847,20 @@ button:active {
   .team_page_container .team_mission_statement .statement .teamPage_main_pic {
     width: 100%;
     margin: 0;
-    margin: 0 15px 0 0;
+    margin: 0 0 0 -8px;
   }
   .team_page_container .team_mission_statement .our_story {
-    width: 100%;
+    width: 102%;
     margin: 0;
     padding: 0;
   }
   .team_page_container .team_mission_statement .our_story .kid-pics {
-    height: 10rem;
     width: 100%;
     object-fit: cover;
   }
   .team_page_container .team_mission_statement .our_story .kid-container {
     width: 100%;
+    margin: 0 0 0 0;
   }
   .team_page_container .team_mission_statement .content_group {
     width: 100%;
