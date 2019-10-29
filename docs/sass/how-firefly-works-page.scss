@@ -289,108 +289,107 @@
     }
   }
   
-.all-testimonies {
-  margin: 50px 100px 0px 100px;
-      @media (max-width: 500px) {
-        margin: 0 0 100px 0;
-        padding: 0;
-      }
-  .testimony_container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
-    .testimony {
-      // width: 80%;
+  .all-testimonies {
+    margin: 50px 100px 0px 100px;
+        @media (max-width: 500px) {
+          margin: 0 0 100px 0;
+          padding: 0;
+        }
+    .testimony_container {
       display: flex;
-      flex-direction: row;
-      // flex-direction: column;
-      align-items: center;
-      font-size: 1.1rem;
-      margin: 15px;
+      align-items: flex-end;
+      justify-content: center;
 
-      .user_info {
+      .testimony {
+        // width: 80%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        // flex-direction: column;
         align-items: center;
         font-size: 1.1rem;
+        margin: 15px;
 
-        .user_name,
-        .title {
-          margin: 0;
+        .user_info {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 1.1rem;
+
+          .user_name,
+          .title {
+            margin: 0;
+          }
+
+          .user_name {
+            font-weight: 700;
+          }
         }
-
-        .user_name {
-          font-weight: 700;
-        }
-      }
-      .testimony_text {
-        padding-left: 15px;
-        font-size: 2rem;
-        line-height: 1.2;
-      }
-      @media (max-width: 750px) {
-        // height: 100vh;
-        width: 100%;
-
-        flex-direction: column;
-        padding: 5%;
-
-        img {
-          width: 50%;
-          position: initial;
-        }
-
         .testimony_text {
-						word-spacing: 10px;
-						// font-size: 1.2rem;
-						width: 95%;
-						padding: 3.5%;
-					}
+          padding-left: 15px;
+          font-size: 2rem;
+          line-height: 1.2;
+        }
+        @media (max-width: 750px) {
+          // height: 100vh;
+          width: 100%;
 
-					.user_info {
-						width: 100%;
-						font-size: 2.1rem;
-						display: flex;
-						flex-direction: column;
-						align-items: center;
-						margin-bottom: 10px;
+          flex-direction: column;
+          padding: 5%;
 
-						.user_name {
-							margin: 0;
-							font-weight: bold;
-							margin-bottom: -5px;
-							text-align: center;
-							@media (max-width: 510px) {
-								font-size: 2.2rem;
-							}
-						}
+          img {
+            width: 50%;
+            position: initial;
+          }
 
-						.title {
-							margin: 0;
-							@media (max-width: 510px) {
-								font-size: 1em;
-								text-align: center;
-							}
-						}
+          .testimony_text {
+              word-spacing: 10px;
+              // font-size: 1.2rem;
+              width: 95%;
+              padding: 3.5%;
+            }
 
-						img {
-							margin: 0;
-						}
-					}
+            .user_info {
+              width: 100%;
+              font-size: 2.1rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              margin-bottom: 10px;
 
-					.testimony_text {
-						margin: 0;
-						// text-align: justify;
-						@media (max-width: 510px) {
-							font-size: 1.72rem;
-							letter-spacing: normal;
-							word-spacing: 2px;
-						}
-					}
-				}
-			}
+              .user_name {
+                margin: 0;
+                font-weight: bold;
+                margin-bottom: -5px;
+                text-align: center;
+                @media (max-width: 510px) {
+                  font-size: 2.2rem;
+                }
+              }
+
+              .title {
+                margin: 0;
+                @media (max-width: 510px) {
+                  font-size: 1em;
+                  text-align: center;
+                }
+              }
+
+              img {
+                margin: 0;
+              }
+            }
+
+            .testimony_text {
+              margin: 0;
+              // text-align: justify;
+              @media (max-width: 510px) {
+                font-size: 1.72rem;
+                letter-spacing: normal;
+                word-spacing: 2px;
+              }
+            }
+          }
+        }
+    }
   }
-}
-
 }
