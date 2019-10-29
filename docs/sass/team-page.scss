@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-.team_page_container{
+body{
 	display: flex;
-	justify-content: center;
-	font-family: nunito;
 	flex-direction: column;
+	align-items: center;
+}
+
+.team_page_container{	
+	font-family: nunito;
+	// display: flex;
+	// flex-flow: column;
+	// align-items: center;
+	max-width: 1024px;
 
 	.team_mission_statement {
 
-		max-width: 100%;
+		max-width: 1024px;
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: center;
@@ -15,11 +22,12 @@
 		position: relative;
 
 		.statement {
-			width: 65.5vw;
+			max-width: 1024px;
 		 	margin: 4rem 0 8rem 0;
 			display: flex;
 			flex-flow: row nowrap;
 			justify-content: space-between;
+			align-items: space-between;
 
 			.statement2{			
 				display: flex;
@@ -51,7 +59,7 @@
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
-					align-items: center;
+					align-items: flex-start;
 
 		
 					button {
@@ -81,11 +89,12 @@
 .our_story {
 	background: #5b4eff;
 	color: white;
-	width: 65.5vw;
+	max-width: 1024px;
 	
   
 	h1 {
-	  	font-size: 3.5rem;
+		  font-size: 3.5rem;
+		  font-weight: 700;
 	  	letter-spacing: 2px;
 		color: white;
 		margin: 4rem 0;
@@ -103,7 +112,7 @@
 			align-items: center;
 
 			p {
-				font-size: 3rem;
+				font-size: 2.4rem;
 				line-height: 3rem;
 				width: 50%;
 				text-align: center;
@@ -113,10 +122,11 @@
   
 	.fireFly_hat {
 	  width: 9%;
-	  position: relative;
-	  top: 50%;
+	  margin: 0;
+	  padding: 0;
+	  position: absolute;
+	  top: 27%;
 	  left: 85%;
-	  display: block;
 	  transform: rotate(-10deg);
 	}
 
@@ -127,15 +137,14 @@
 	}
 
 	.kid-container {
+		
 		display: grid;
 		grid-gap: 2px;
-		grid-template-rows: auto auto;
+		grid-template-rows: 200px 200px;
 		grid-auto-flow: column;
-		justify-content: center;
-		margin: 2rem 0 0 0;
+		margin: 10rem 0 0 0;
 		padding: 2px;
 		background: white;
-		width: 65.5vw;
 	}
 }
 
@@ -144,6 +153,7 @@
 	flex-direction: column;
 	align-items: center;
 	margin-top: 6rem;
+	max-width: 1024px;
   
 	.content {
 	  display: flex;
@@ -222,11 +232,12 @@
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
+	margin-left: 10%;
 
 	.reee{
 		font-size: 1.8rem;
 		font-weight: 100;
-		width: 70%;
+		// width: 70%;
 		margin: 0 0 0 2rem;
 	}
 
@@ -238,13 +249,19 @@
 		.testimony_text {
 			font-size: 1.76rem;
 			line-height: 1.2rem;
-			margin: 0; 			
+			margin: 0; 	
+			width: 120%;		
 		}
 
 		.name{
 			font-weight: 700;
+			font-size: 1.9rem;
 			line-height: 2.8rem;
 			margin: 0;
+		}
+
+		.title{
+			font-size: 1.7rem;
 		}
 	}
 }
@@ -252,7 +269,8 @@
   .testimony_button_div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+	align-items: center;
+	justify-content: center;
     width: 100%;
     margin: 25px 0 55px 0;
 
@@ -289,13 +307,12 @@ button:active {
 
 // @@@@@@@@@@@@@@@@@@@ MEDIA QUESo @@@@@@@@@@@@
 
-
 @media(max-width: 600px){
 	// body{
 	// 	margin: 0;
 	// 	padding: 0;
-	// 	background: red;
-	// 	width: 110%;
+	// 	// background: red;
+	// 	// width: 110%;
 	// }
 	
 
@@ -315,6 +332,7 @@ button:active {
 			width: 100%;
 			margin: 0;
 			padding: 0;
+			
 		}
 
 		.statement2{			
@@ -384,6 +402,7 @@ button:active {
 
 		.kid-container{
 			width: 100%;
+			grid-template-rows: 100px 100px;
 		}
 	}
 	
@@ -449,22 +468,23 @@ button:active {
 				.teamPage_main_pic{
 					width: 100%;
 					margin: 0;
-					margin: 0 15px 0 0;
+					margin: 0 0 0 -8px;
 				}
 			}
 			.our_story{
-				width: 100%;
+				width: 102%;
 				margin: 0;
 				padding: 0;
 
 				.kid-pics {
-					height: 10rem;
+					// height: 10rem;
 					width: 100%;
 					object-fit: cover;
 				}
 		
 				.kid-container{
 					width: 100%;
+					margin: 0 0 0 0;
 				}
 			}
 
