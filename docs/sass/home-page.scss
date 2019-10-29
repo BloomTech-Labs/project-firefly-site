@@ -41,6 +41,11 @@
         em {
             font-style: italic;
         }
+
+        @include mobile {
+          margin: 0 auto; 
+          margin-top: 2rem; 
+        }
       }
 
       button {
@@ -68,6 +73,10 @@
 
       img {
         width: 100%; 
+        
+        @include mobile {
+          margin: 3rem 0; 
+        }
       }
     }
   }
@@ -165,12 +174,16 @@
       }
     }
     .hiw-image {
-      width: 8%; 
+      width: 75px; 
+      height: 75px;  
       position: relative;
       transform: rotate(-10deg);
       left: 85%;
       top: 90%; 
-      // bottom: 10%; 
+
+      @include mobile {
+        left: 80%; 
+      }
     }
   }
 
@@ -185,6 +198,10 @@
         align-items: center; 
         margin-top: 3rem; 
         font-size: 4rem; 
+
+        @include mobile {
+          flex-direction: column;
+        }
 
         .profile-info {
 
@@ -205,31 +222,33 @@
         p {
           font-size: 2rem; 
           margin-left: 2rem; 
+
+          @include mobile {
+            margin-top: 3rem; 
+            text-align: center;
+          }
         }
 
     }
   }
 
   .onboarding {
-    
+
     .cta-btn-wrapper {
-        display: flex; 
+        display: flex;
         flex-direction: column;
-        text-align: center; 
-        margin: 0 auto; 
-        margin-top: 6rem; 
-        width: 100%; 
+        justify-content: center;
+        margin-top: 3rem; 
 
         img {
-            width: 8%;
+            width: 75px;
+            height: 75px;
             position: relative;
             transform: rotate(-10deg);
-            left: 30%; 
+            left: 30%;
         }
 
         .join {
-            margin: 0 auto;
-            text-align: center;
             width: 300px;
             background-color: #4aa810;
             box-shadow: 0px 3px #3e8c0d;
@@ -238,6 +257,7 @@
             font-size: 2rem;
             border: none;
             border-radius: 10px;
+            margin-top: 1rem; 
             margin-bottom: 5rem; 
         }
     }

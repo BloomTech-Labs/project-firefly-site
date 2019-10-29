@@ -8,13 +8,24 @@ footer {
   
   nav {
     width: 1024px;
-    @include flex(row, flex-start, space-between);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 
     .footer-row {
-      @include flex(row, flex-start, space-around);
+      margin: 0 auto; 
+      text-align: center; 
+      display: flex; 
+      justify-content: space-evenly;
+      align-items: baseline;
 
       .footer-column {
         @include flex(column, center, center);
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 25px;
 
         .footer-head {
@@ -41,25 +52,25 @@ footer {
     text-align: center;
   }
 
-  @include tablet {
-    nav {
-      width: 800px;
-      justify-content: space-evenly;
+  // @include tablet {
+  //   nav {
+  //     width: 800px;
+  //     justify-content: space-evenly;
       
-      .footer-row {
-        justify-content: space-between;
-        width: 50%;
+  //     .footer-row {
+  //       justify-content: space-between;
+  //       width: 50%;
   
-        .footer-column {
-          padding: 20px;
+  //       .footer-column {
+  //         padding: 20px;
           
-          a {
-            padding: 10px;
-          }
-        }
-      }
-    }
-  }
+  //         a {
+  //           padding: 10px;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
   @include mobile {
     padding-bottom: 10px;
@@ -70,15 +81,9 @@ footer {
   
       .footer-row {
         @include flex(column, center, center);
-  
-        .footer-column {
-          padding: 15px;
-        }
+
       }   
     }  
   }
 
-  @include mobileM { 
-  
-  }
 }
