@@ -347,12 +347,14 @@ footer .copyright {
   }
 }
 .container .mission-wrapper .mission-left h1 {
+  margin: 0;
   color: #4aa80f;
   font-size: 3.5rem;
   font-weight: 900;
 }
 .container .mission-wrapper .mission-left .latin {
   margin: 0;
+  margin-top: 2rem;
 }
 .container .mission-wrapper .mission-left p {
   margin-top: 2rem;
@@ -424,7 +426,7 @@ footer .copyright {
 .container .icon-container .icon-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 @media (max-width: 812px) {
   .container .icon-container .icon-wrapper {
