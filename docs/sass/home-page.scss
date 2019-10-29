@@ -11,8 +11,8 @@
 
     @include mobile {
         margin: 0 auto; 
-        text-align: center; 
-        flex-direction: column-reverse; 
+        margin-top: -3rem; 
+        flex-direction: column; 
         justify-content: center;
     }
 
@@ -28,18 +28,32 @@
       }
 
       h1 {
+        margin: 0; 
         color: #4aa80f;
         font-size: 3.5rem;
         font-weight: 900; 
       }
 
+      .latin {
+        margin: 0; 
+        margin-top: 2rem; 
+      }
+
       p {
         margin-top: 2rem; 
-        width: 95%;
         font-size: 2rem;
 
         em {
             font-style: italic;
+        }
+
+        @include mobile {
+          margin-left: 0; 
+        }
+
+        @include mobile {
+          margin: 0 auto; 
+          margin-top: 2rem; 
         }
       }
 
@@ -58,6 +72,10 @@
 
       img {
         width: 100%; 
+        
+        @include mobile {
+          margin: 3rem 0; 
+        }
       }
     }
   }
@@ -65,11 +83,17 @@
   .icon-container {
     margin-top: 8rem;
 
+    @include tablet {
+      margin: 0 auto; 
+    }
+
     h2 {
       color: #4aa810;
       font-size: 3.5rem;
-      margin-bottom: 3rem; 
       font-weight: 900; 
+
+      @include tablet {
+      }
 
       @include mobile {
           text-align: center; 
@@ -79,7 +103,7 @@
     .icon-wrapper {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: baseline;
 
       @include mobile {
         flex-direction: column-reverse; 
@@ -155,12 +179,16 @@
       }
     }
     .hiw-image {
-      width: 8%; 
+      width: 75px; 
+      height: 75px;  
       position: relative;
       transform: rotate(-10deg);
       left: 85%;
       top: 90%; 
-      // bottom: 10%; 
+
+      @include mobile {
+        left: 80%; 
+      }
     }
   }
 
@@ -175,6 +203,10 @@
         align-items: center; 
         margin-top: 3rem; 
         font-size: 4rem; 
+
+        @include mobile {
+          flex-direction: column;
+        }
 
         .profile-info {
 
@@ -195,26 +227,30 @@
         p {
           font-size: 2rem; 
           margin-left: 2rem; 
+
+          @include mobile {
+            margin-top: 3rem; 
+            text-align: center;
+          }
         }
 
     }
   }
 
   .onboarding {
-    
+
     .cta-btn-wrapper {
-        display: flex; 
+        display: flex;
         flex-direction: column;
-        text-align: center; 
-        margin: 0 auto; 
-        margin-top: 6rem; 
-        width: 100%; 
+        justify-content: center;
+        margin-top: 3rem; 
 
         img {
-            width: 8%;
+            width: 75px;
+            height: 75px;
             position: relative;
             transform: rotate(-10deg);
-            left: 30%; 
+            left: 30%;
         }
 
         .join {

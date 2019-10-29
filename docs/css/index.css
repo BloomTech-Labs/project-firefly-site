@@ -277,25 +277,31 @@ footer {
 footer nav {
   width: 1024px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 footer nav .footer-row {
+  margin: 0 auto;
+  text-align: center;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 footer nav .footer-row .footer-column {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 25px;
+  width: 250px;
 }
 footer nav .footer-row .footer-column .footer-head {
-  color: green;
+  color: white;
   font-weight: 900;
 }
 footer nav .footer-row .footer-column a {
@@ -310,22 +316,6 @@ footer .copyright {
   color: white;
   font-size: 1rem;
   text-align: center;
-}
-@media (max-width: 1112px) {
-  footer nav {
-    width: 800px;
-    justify-content: space-evenly;
-  }
-  footer nav .footer-row {
-    justify-content: space-between;
-    width: 50%;
-  }
-  footer nav .footer-row .footer-column {
-    padding: 20px;
-  }
-  footer nav .footer-row .footer-column a {
-    padding: 10px;
-  }
 }
 @media (max-width: 812px) {
   footer {
@@ -344,10 +334,8 @@ footer .copyright {
     align-items: center;
     justify-content: center;
   }
-  footer nav .footer-row .footer-column {
-    padding: 15px;
-  }
 }
+
 .container {
   margin: 0 auto;
   max-width: 1024px;
@@ -362,8 +350,8 @@ footer .copyright {
 @media (max-width: 812px) {
   .container .mission-wrapper {
     margin: 0 auto;
-    text-align: center;
-    flex-direction: column-reverse;
+    margin-top: -3rem;
+    flex-direction: column;
     justify-content: center;
   }
 }
@@ -380,17 +368,32 @@ footer .copyright {
   }
 }
 .container .mission-wrapper .mission-left h1 {
+  margin: 0;
   color: #4aa80f;
   font-size: 3.5rem;
   font-weight: 900;
 }
+.container .mission-wrapper .mission-left .latin {
+  margin: 0;
+  margin-top: 2rem;
+}
 .container .mission-wrapper .mission-left p {
   margin-top: 2rem;
-  width: 95%;
   font-size: 2rem;
 }
 .container .mission-wrapper .mission-left p em {
   font-style: italic;
+}
+@media (max-width: 812px) {
+  .container .mission-wrapper .mission-left p {
+    margin-left: 0;
+  }
+}
+@media (max-width: 812px) {
+  .container .mission-wrapper .mission-left p {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
 }
 .container .mission-wrapper .mission-left button {
   margin: 0 auto;
@@ -418,13 +421,22 @@ footer .copyright {
 .container .mission-wrapper .mission-right img {
   width: 100%;
 }
+@media (max-width: 812px) {
+  .container .mission-wrapper .mission-right img {
+    margin: 3rem 0;
+  }
+}
 .container .icon-container {
   margin-top: 8rem;
+}
+@media (max-width: 1112px) {
+  .container .icon-container {
+    margin: 0 auto;
+  }
 }
 .container .icon-container h2 {
   color: #4aa810;
   font-size: 3.5rem;
-  margin-bottom: 3rem;
   font-weight: 900;
 }
 @media (max-width: 812px) {
@@ -435,7 +447,7 @@ footer .copyright {
 .container .icon-container .icon-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 @media (max-width: 812px) {
   .container .icon-container .icon-wrapper {
@@ -509,11 +521,17 @@ footer .copyright {
   }
 }
 .container .how-it-works-wrapper .hiw-image {
-  width: 8%;
+  width: 75px;
+  height: 75px;
   position: relative;
   transform: rotate(-10deg);
   left: 85%;
   top: 90%;
+}
+@media (max-width: 812px) {
+  .container .how-it-works-wrapper .hiw-image {
+    left: 80%;
+  }
 }
 .container .testimonials {
   display: flex;
@@ -526,6 +544,11 @@ footer .copyright {
   align-items: center;
   margin-top: 3rem;
   font-size: 4rem;
+}
+@media (max-width: 812px) {
+  .container .testimonials .testimonial {
+    flex-direction: column;
+  }
 }
 .container .testimonials .testimonial .profile-info h4 {
   text-align: center;
@@ -542,16 +565,21 @@ footer .copyright {
   font-size: 2rem;
   margin-left: 2rem;
 }
+@media (max-width: 812px) {
+  .container .testimonials .testimonial p {
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
 .container .onboarding .cta-btn-wrapper {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 6rem;
-  width: 100%;
+  justify-content: center;
+  margin-top: 3rem;
 }
 .container .onboarding .cta-btn-wrapper img {
-  width: 8%;
+  width: 75px;
+  height: 75px;
   position: relative;
   transform: rotate(-10deg);
   left: 30%;
@@ -651,37 +679,36 @@ body {
 .team_page_container .team_mission_statement .statement .teamPage_main_pic {
   width: 55%;
 }
-
-.our_story {
+.team_page_container .our_story {
   background: #5b4eff;
   color: white;
   max-width: 1024px;
 }
-.our_story h1 {
+.team_page_container .our_story h1 {
   font-size: 3.5rem;
   font-weight: 700;
   letter-spacing: 2px;
   color: white;
   margin: 4rem 0;
 }
-.our_story .our_story_text {
+.team_page_container .our_story .our_story_text {
   width: 100%;
   margin: 0 auto;
   text-align: center;
   padding: 1.2rem 0;
 }
-.our_story .our_story_text .our_story_pdiv {
+.team_page_container .our_story .our_story_text .our_story_pdiv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.our_story .our_story_text .our_story_pdiv p {
+.team_page_container .our_story .our_story_text .our_story_pdiv p {
   font-size: 2.4rem;
   line-height: 3rem;
   width: 50%;
   text-align: center;
 }
-.our_story .fireFly_hat {
+.team_page_container .our_story .fireFly_hat {
   width: 9%;
   margin: 0;
   padding: 0;
@@ -690,12 +717,12 @@ body {
   left: 85%;
   transform: rotate(-10deg);
 }
-.our_story .kid-pics {
+.team_page_container .our_story .kid-pics {
   height: 20rem;
   width: 100%;
   object-fit: cover;
 }
-.our_story .kid-container {
+.team_page_container .our_story .kid-container {
   display: grid;
   grid-gap: 2px;
   grid-template-rows: 200px 200px;
@@ -704,95 +731,107 @@ body {
   padding: 2px;
   background: white;
 }
-
-.content_group {
+.team_page_container .content_group {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 6rem;
   max-width: 1024px;
 }
-.content_group .content {
+.team_page_container .content_group .content {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.content_group .content img {
+.team_page_container .content_group .content img {
   margin: 0 1rem 0 0;
   padding: 8%;
   align-self: flex-end;
   width: 45%;
 }
-.content_group .content div {
+.team_page_container .content_group .content div {
   width: 100%;
 }
-.content_group .content div h1 {
+.team_page_container .content_group .content div h1 {
   margin: 0 0 3rem 0;
   font-size: 2.8rem;
   font-weight: 700;
   color: black;
 }
-.content_group .content div li {
+.team_page_container .content_group .content div li {
   font-size: 1.92rem;
   list-style-image: url("../img/contentGroup_bullets.svg");
   margin: 15px;
 }
-
-.button_badges_container {
+.team_page_container .button_badges_container {
   padding-top: 2.5%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.button_badges_container .badges {
+.team_page_container .button_badges_container button {
+  width: 300px;
+  background-color: #4aa810;
+  box-shadow: 0px 3px #3e8c0d;
+  color: #e2f5d6;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  font-size: 1.92rem;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.92;
+  outline: none;
+}
+.team_page_container .button_badges_container button:active {
+  margin: 3px 0 -3px 0;
+}
+.team_page_container .button_badges_container .badges {
   display: flex;
   cursor: pointer;
   width: 300px;
   padding-top: 5px;
 }
-.button_badges_container .badges .ios {
+.team_page_container .button_badges_container .badges .ios {
   width: 43%;
   margin-left: 3%;
 }
-.button_badges_container .badges .android {
+.team_page_container .button_badges_container .badges .android {
   width: 53%;
 }
-
-.testimony_container {
+.team_page_container .testimony_container {
   margin: 15px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   margin-left: 10%;
 }
-.testimony_container .reee {
+.team_page_container .testimony_container .reee {
   font-size: 1.8rem;
   font-weight: 100;
   margin: 0 0 0 2rem;
 }
-.testimony_container .testimony {
+.team_page_container .testimony_container .testimony {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
-.testimony_container .testimony .testimony_text {
+.team_page_container .testimony_container .testimony .testimony_text {
   font-size: 1.76rem;
   line-height: 1.2rem;
   margin: 0;
   width: 120%;
 }
-.testimony_container .testimony .name {
+.team_page_container .testimony_container .testimony .name {
   font-weight: 700;
   font-size: 1.9rem;
   line-height: 2.8rem;
   margin: 0;
 }
-.testimony_container .testimony .title {
+.team_page_container .testimony_container .testimony .title {
   font-size: 1.7rem;
 }
-
-.testimony_button_div {
+.team_page_container .testimony_button_div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -800,17 +839,17 @@ body {
   width: 100%;
   margin: 25px 0 55px 0;
 }
-.testimony_button_div .testimony_image {
+.team_page_container .testimony_button_div .testimony_image {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 10px;
   width: 450px;
 }
-.testimony_button_div .testimony_image img {
+.team_page_container .testimony_button_div .testimony_image img {
   height: 75px;
   transform: rotate(-7deg);
 }
-.testimony_button_div .testimonial_button {
+.team_page_container .testimony_button_div .testimonial_button {
   margin: 0 auto;
   margin-top: 0;
   text-align: center;
@@ -823,6 +862,9 @@ body {
   border: none;
   border-radius: 10px;
   margin-bottom: 0;
+}
+.team_page_container button:active {
+  margin: 3px 0 -3px 0;
 }
 
 @media (max-width: 600px) {
@@ -858,6 +900,7 @@ body {
   .team_page_container .team_mission_statement .statement .statement2 p {
     font-size: 1.8rem;
     line-height: 2.8rem;
+    margin: 0 5%;
   }
   .team_page_container .team_mission_statement .statement .statement2 .button_badges_container {
     padding: 25px;
@@ -876,9 +919,6 @@ body {
     width: 55%;
   }
 
-  .our_story {
-    width: 100%;
-  }
   .our_story .our_story_text .our_story_pdiv p {
     font-size: 1.8rem;
   }
@@ -899,9 +939,10 @@ body {
 
   .content_group {
     width: 100;
+    margin: 8rem 5% 4rem 5%;
   }
   .content_group .content {
-    margin: 1rem 0;
+    margin: 1rem 5%;
   }
   .content_group .content img {
     display: none;
@@ -936,34 +977,44 @@ body {
   .team_page_container .team_mission_statement .statement .statement2 {
     width: 100%;
   }
-  .team_page_container .team_mission_statement .statement .teamPage_main_pic {
+  .team_page_container .team_mission_statement .statement .statement2 div h1 {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .team_page_container .team_mission_statement .statement .statement2 div p {
+    text-align: center;
+  }
+  .team_page_container .team_mission_statement .teamPage_main_pic {
     width: 100%;
     margin: 0;
-    margin: 0 0 0 -8px;
   }
-  .team_page_container .team_mission_statement .our_story {
-    width: 102%;
+  .team_page_container .our_story {
     margin: 0;
     padding: 0;
   }
-  .team_page_container .team_mission_statement .our_story .kid-pics {
-    width: 100%;
-    object-fit: cover;
+  .team_page_container .our_story .our_story_text {
+    padding: 0;
   }
-  .team_page_container .team_mission_statement .our_story .kid-container {
+  .team_page_container .our_story .our_story_pdiv {
+    margin-bottom: 4rem;
+  }
+  .team_page_container .our_story .kid-container {
     width: 100%;
     margin: 0 0 0 0;
   }
-  .team_page_container .team_mission_statement .content_group {
+  .team_page_container .our_story .kid-container .kid-pics {
     width: 100%;
-    margin: 8rem 0 4rem 0;
+    object-fit: cover;
+  }
+  .team_page_container .testimony_container .testimony .testimony_text {
+    text-align: center;
   }
 }
 .how_firefly_works_container .mission_statement {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 8%;
+  padding-top: 2%;
   margin-bottom: 50px;
 }
 @media (max-width: 500px) {
@@ -974,12 +1025,12 @@ body {
 }
 @media (max-width: 800px) {
   .how_firefly_works_container .mission_statement {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
   .how_firefly_works_container .mission_statement .img-tim-fix {
     width: 100%;
-    margin-bottom: 60px;
+    margin-top: 60px;
   }
 }
 .how_firefly_works_container .mission_statement .text {
