@@ -55,6 +55,7 @@ table {
 
 * {
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 html {
@@ -190,8 +191,9 @@ footer nav .footer-row .footer-column {
   justify-content: center;
   padding: 25px;
 }
-footer nav .footer-row .footer-column h3 {
-  color: white;
+footer nav .footer-row .footer-column .footer-head {
+  color: green;
+  font-weight: 900;
 }
 footer nav .footer-row .footer-column a {
   color: white;
@@ -1107,6 +1109,12 @@ button:active {
 .how_firefly_works_container .all-testimonies {
   margin: 50px 100px 0px 100px;
 }
+@media (max-width: 500px) {
+  .how_firefly_works_container .all-testimonies {
+    margin: 0 0 100px 0;
+    padding: 0;
+  }
+}
 .how_firefly_works_container .all-testimonies .testimony_container {
   display: flex;
   align-items: flex-end;
@@ -1137,9 +1145,8 @@ button:active {
   font-size: 1.7rem;
   line-height: 1.2;
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony {
-    height: 100vh;
     width: 100%;
     flex-direction: column;
     padding: 5%;
@@ -1149,8 +1156,6 @@ button:active {
     position: initial;
   }
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-    word-spacing: 10px;
-    font-size: 1.2rem;
     width: 95%;
     padding: 3.5%;
   }
@@ -1167,45 +1172,36 @@ button:active {
     text-align: center;
   }
 }
-@media (max-width: 700px) and (max-width: 510px) {
+@media (max-width: 750px) and (max-width: 510px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
     font-size: 38px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
     margin: 0;
   }
 }
-@media (max-width: 700px) and (max-width: 510px) {
+@media (max-width: 750px) and (max-width: 510px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
     font-size: 36px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info img {
     margin: 0;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
     font-size: 1.2rem;
     margin: 0;
     text-align: justify;
   }
 }
-@media (max-width: 700px) and (max-width: 510px) {
+@media (max-width: 750px) and (max-width: 510px) {
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-    font-size: 38px;
-    text-align: center;
-  }
-}
-@media (max-width: 700px) {
-  .how_firefly_works_container .all-testimonies .testimony_container {
-    height: auto;
-  }
-  .how_firefly_works_container .all-testimonies .testimony_container .testimony_text {
-    font-size: 50px;
+    font-size: 2rem;
   }
 }
 
