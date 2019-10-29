@@ -1,84 +1,82 @@
 footer {
-  background-color: $footer-background;
-  margin: 0 auto;
-  padding-bottom: 25px;
-  border: 1px solid $ebony-clay;
-  @include flex(column, center, center);
-  white-space: nowrap;
-  
-  nav {
-    width: 1024px;
-    @include flex(row, flex-start, space-between);
+	background-color: $footer-background;
+	position: absolute;
+	padding-bottom: 25px;
+	border: 1px solid $ebony-clay;
+	@include flex(column, center, center);
+	white-space: nowrap;
 
-    .footer-row {
-      @include flex(row, flex-start, space-around);
+	nav {
+		width: 1024px;
+		@include flex(row, flex-start, space-between);
 
-      .footer-column {
-        @include flex(column, center, center);
-        padding: 25px;
+		.footer-row {
+			@include flex(row, flex-start, space-around);
 
-        .footer-head {
-          color: green; 
-          font-weight: 900;
-        }
-        
-        a {
-          color: white;
-          font-size: 1.6rem;
-          padding: 10px;
-        }
-      }
-    }
-    
-    .footer-logo {
-      width: 10%;
-    }
-    
-  }
-  .copyright {
-    color: white;
-    font-size: 1rem;
-    text-align: center;
-  }
+			.footer-column {
+				@include flex(column, center, center);
+				padding: 25px;
 
-  @include tablet {
-    nav {
-      width: 800px;
-      justify-content: space-evenly;
-      
-      .footer-row {
-        justify-content: space-between;
-        width: 50%;
-  
-        .footer-column {
-          padding: 20px;
-          
-          a {
-            padding: 10px;
-          }
-        }
-      }
-    }
-  }
+				.footer-head {
+					color: green;
+					font-weight: 900;
+				}
 
-  @include mobile {
-    padding-bottom: 10px;
-    
-    nav {
-      width: 400px;
-      @include flex(column, center, center);
-  
-      .footer-row {
-        @include flex(column, center, center);
-  
-        .footer-column {
-          padding: 15px;
-        }
-      }   
-    }  
-  }
+				a {
+					color: white;
+					font-size: 1.6rem;
+					padding: 10px;
+				}
+			}
+		}
 
-  @include mobileM { 
-  
-  }
+		.footer-logo {
+			width: 10%;
+		}
+	}
+	.copyright {
+		color: white;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	@include tablet {
+		nav {
+			width: 800px;
+			justify-content: space-evenly;
+
+			.footer-row {
+				justify-content: space-between;
+				width: 50%;
+
+				.footer-column {
+					padding: 20px;
+
+					a {
+						padding: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	@include mobile {
+		padding-bottom: 10px;
+
+		nav {
+			width: 400px;
+			@include flex(column, center, center);
+
+			.footer-row {
+				@include flex(column, center, center);
+
+				.footer-column {
+					padding: 15px;
+				}
+			}
+		}
+	}
+
+	@include mobileM {
+	}
 }
