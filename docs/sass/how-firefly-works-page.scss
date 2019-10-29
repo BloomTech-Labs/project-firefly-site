@@ -1,5 +1,4 @@
 .how_firefly_works_container {
-
   .mission_statement {
     display: flex;
     justify-content: space-between;
@@ -26,7 +25,6 @@
       flex-direction: column;
       // word-spacing: 2px;
       margin-right: 10px;
-
       @include mobileM {
         text-align: center;
         width: 100%;
@@ -299,7 +297,6 @@
       display: flex;
       align-items: flex-end;
       justify-content: center;
-
       .testimony {
         // width: 80%;
         display: flex;
@@ -308,18 +305,15 @@
         align-items: center;
         font-size: 1.1rem;
         margin: 15px;
-
         .user_info {
           display: flex;
           flex-direction: column;
           align-items: center;
           font-size: 1.1rem;
-
           .user_name,
           .title {
             margin: 0;
           }
-
           .user_name {
             font-weight: 700;
           }
@@ -340,14 +334,12 @@
             width: 50%;
             position: initial;
           }
-
           .testimony_text {
               word-spacing: 10px;
               // font-size: 1.2rem;
               width: 95%;
               padding: 3.5%;
             }
-
             .user_info {
               width: 100%;
               font-size: 2.1rem;
@@ -355,7 +347,6 @@
               flex-direction: column;
               align-items: center;
               margin-bottom: 10px;
-
               .user_name {
                 margin: 0;
                 font-weight: bold;
@@ -365,7 +356,6 @@
                   font-size: 2.2rem;
                 }
               }
-
               .title {
                 margin: 0;
                 @media (max-width: 510px) {
@@ -373,12 +363,10 @@
                   text-align: center;
                 }
               }
-
               img {
                 margin: 0;
               }
             }
-
             .testimony_text {
               margin: 0;
               // text-align: justify;
