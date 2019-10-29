@@ -85,7 +85,7 @@ p {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1024px;
   width: 100%;
   margin: 0 auto;
 }
@@ -171,7 +171,7 @@ footer {
   white-space: nowrap;
 }
 footer nav {
-  width: 1000px;
+  width: 1024px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -248,7 +248,8 @@ footer .copyright {
 .container .mission-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 5rem;
+  max-width: 1024px;
 }
 @media (max-width: 812px) {
   .container .mission-wrapper {
@@ -278,7 +279,7 @@ footer .copyright {
 .container .mission-wrapper .mission-left p {
   margin-top: 2rem;
   width: 95%;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .container .mission-wrapper .mission-left p em {
   font-style: italic;
@@ -297,13 +298,16 @@ footer .copyright {
   border-radius: 10px;
 }
 .container .mission-wrapper .mission-right {
-  width: 61%;
+  width: 50%;
 }
 @media (max-width: 812px) {
   .container .mission-wrapper .mission-right {
     width: 100%;
     margin: 0 auto;
   }
+}
+.container .mission-wrapper .mission-right img {
+  width: 100%;
 }
 .container .icon-container {
   margin-top: 8rem;
@@ -396,11 +400,11 @@ footer .copyright {
   }
 }
 .container .how-it-works-wrapper .hiw-image {
-  margin-left: 88%;
-  width: 10%;
-  position: absolute;
-  right: 5%;
-  bottom: -10.1%;
+  width: 8%;
+  position: relative;
+  transform: rotate(-10deg);
+  left: 85%;
+  top: 90%;
 }
 .container .testimonials {
   display: flex;
@@ -412,6 +416,7 @@ footer .copyright {
   display: flex;
   align-items: center;
   margin-top: 3rem;
+  font-size: 4rem;
 }
 .container .testimonials .testimonial .profile-info h4 {
   text-align: center;
@@ -424,14 +429,26 @@ footer .copyright {
   font-size: 1.8rem;
   color: black;
 }
+.container .testimonials .testimonial p {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
 .container .onboarding .cta-btn-wrapper {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 0 auto;
+  margin-top: 6rem;
   width: 100%;
+}
+.container .onboarding .cta-btn-wrapper img {
+  width: 8%;
+  position: relative;
+  transform: rotate(-10deg);
+  left: 30%;
 }
 .container .onboarding .cta-btn-wrapper .join {
   margin: 0 auto;
-  margin-top: 5rem;
   text-align: center;
   width: 300px;
   background-color: #4aa810;
