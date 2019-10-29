@@ -278,6 +278,7 @@ footer nav .footer-row .footer-column {
   justify-content: center;
   align-items: center;
   padding: 25px;
+  width: 250px;
 }
 footer nav .footer-row .footer-column .footer-head {
   color: white;
