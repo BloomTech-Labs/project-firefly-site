@@ -28,6 +28,7 @@
       }
 
       h1 {
+        margin: 0; 
         color: #4aa80f;
         font-size: 3.5rem;
         font-weight: 900; 
@@ -35,6 +36,7 @@
 
       .latin {
         margin: 0; 
+        margin-top: 2rem; 
       }
 
       p {
@@ -101,7 +103,7 @@
     .icon-wrapper {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: baseline;
 
       @include mobile {
         flex-direction: column-reverse; 
