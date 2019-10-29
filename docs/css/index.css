@@ -91,7 +91,6 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
-<<<<<<< HEAD
 article,
 aside,
 details,
@@ -105,22 +104,11 @@ nav,
 section {
   display: block;
 }
-=======
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-<<<<<<< HEAD
-  display: block; }
->>>>>>> c01e0136c0a4f15a673b77051c256eb43cbbb237
-=======
-  display: block;
-}
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
 
 body {
   line-height: 1;
 }
 
-<<<<<<< HEAD
 ol,
 ul {
   list-style: none;
@@ -138,26 +126,6 @@ q:after {
   content: "";
   content: none;
 }
-=======
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-<<<<<<< HEAD
-  content: '';
-  content: none; }
->>>>>>> c01e0136c0a4f15a673b77051c256eb43cbbb237
-=======
-  content: "";
-  content: none;
-}
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
 
 table {
   border-collapse: collapse;
@@ -166,16 +134,7 @@ table {
 
 * {
   box-sizing: border-box;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-  margin: 0 auto; }
->>>>>>> c01e0136c0a4f15a673b77051c256eb43cbbb237
-=======
-  margin: 0 auto;
-}
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
 
 html {
   font-size: 62.5%;
@@ -1011,71 +970,6 @@ body {
 }
 @media (max-width: 500px) {
   .how_firefly_works_container .mission_statement .text {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    text-align: center;
-    width: 100%;
-    margin: 0;
-  }
-}
-.how_firefly_works_container .mission_statement .text h1 {
-  color: #4aa810;
-  font-size: 2.88rem;
-  margin-bottom: 2rem;
-  font-weight: bold;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .mission_statement .text h1 {
-    font-size: 3rem;
-    margin-top: 1rem;
-  }
-}
-.how_firefly_works_container .mission_statement .text p {
-  font-size: 1.76rem;
-  width: 95%;
-  text-align: justify;
-  margin-bottom: 2rem;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .mission_statement .text p {
-    text-align: center;
-  }
-}
-=======
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px; }
-    @media (max-width: 500px) {
-      .how_firefly_works_container .mission_statement .text {
-        text-align: center;
-        width: 100%;
-        margin: 0; } }
-    .how_firefly_works_container .mission_statement .text h1 {
-      color: #4AA810;
-      font-size: 2.88rem;
-      margin-bottom: 2rem;
-      font-weight: bold; }
-      @media (max-width: 500px) {
-        .how_firefly_works_container .mission_statement .text h1 {
-          font-size: 3rem;
-          margin-top: 1rem; } }
-    .how_firefly_works_container .mission_statement .text p {
-      font-size: 1.76rem;
-      width: 95%;
-      text-align: justify;
-      margin-bottom: 2rem; }
-      @media (max-width: 500px) {
-        .how_firefly_works_container .mission_statement .text p {
-          text-align: center; } }
->>>>>>> c01e0136c0a4f15a673b77051c256eb43cbbb237
-.how_firefly_works_container .button_badges_container-how {
-  padding-top: 2.5%; }
-  .how_firefly_works_container .button_badges_container-how button {
-    margin: 0 auto;
-    margin-top: 0;
-=======
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
     text-align: center;
     width: 100%;
     margin: 0;
@@ -1137,18 +1031,10 @@ body {
   padding-top: 5px;
 }
 .how_firefly_works_container .firefly_tutorial_container {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  margin-top: 10%;
-}
-.how_firefly_works_container .firefly_tutorial_container .text_container {
-  background: #5b4eff;
-=======
   margin-top: 10%;
 }
 .how_firefly_works_container .firefly_tutorial_container .text_container {
   background: #5B4EFF;
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
   color: white;
   font-size: 2.1rem;
   display: flex;
@@ -1186,143 +1072,6 @@ body {
   margin-top: 10%;
 }
 @media (max-width: 500px) {
-<<<<<<< HEAD
-  .how_firefly_works_container .firefly_tutorial_container .tutorial_divs {
-    margin-top: 5%;
-  }
-}
-.how_firefly_works_container .firefly_tutorial_container .tutorial_divs h1 {
-  font-size: 4rem;
-  color: #4aa810;
-  font-weight: bold;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tutorial_divs h1 {
-    text-align: center;
-    font-size: 3rem;
-  }
-}
-.how_firefly_works_container .firefly_tutorial_container .tutorial_divs .content_container {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tutorial_divs .content_container {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.how_firefly_works_container .firefly_tutorial_container .tutorial_divs .content_container .content h2 {
-  color: black;
-  font-size: 1.92rem;
-  text-align: center;
-  font-weight: bold;
-  padding: 10px 0 25px 0;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tutorial_divs .content_container .content h2 {
-    margin-bottom: 1rem;
-  }
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1,
-.how_firefly_works_container .firefly_tutorial_container .tut_div2,
-.how_firefly_works_container .firefly_tutorial_container .tut_div3 {
-    padding: 0 5%;
-  }
-}
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 h1,
-.how_firefly_works_container .firefly_tutorial_container .tut_div2 h1,
-.how_firefly_works_container .firefly_tutorial_container .tut_div3 h1 {
-  margin: 5% 0 5%;
-}
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content,
-.how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content,
-.how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content,
-.how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content,
-.how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content {
-    width: 100%;
-    flex-direction: column-reverse;
-  }
-}
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content img,
-.how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content img,
-.how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content img {
-  width: 100%;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content img,
-.how_firefly_works_container .firefly_tutorial_container .tut_div2 .content_container .content img,
-.how_firefly_works_container .firefly_tutorial_container .tut_div3 .content_container .content img {
-    margin-bottom: 3.2rem;
-  }
-}
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 {
-  padding: 0;
-  margin-left: 7%;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 {
-    margin-left: 0;
-  }
-}
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 .block_container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-@media (max-width: 500px) {
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 .block_container {
-    justify-content: center;
-  }
-}
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 .block_container .img3 {
-  align-self: flex-end;
-}
-.how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content3 .img4 {
-  width: 55%;
-}
-.how_firefly_works_container .firefly_tutorial_container .tut_div2 {
-  background: #f7f6ff;
-}
-=======
-  margin-top: 10%; }
-  .how_firefly_works_container .firefly_tutorial_container .text_container {
-    background: #5B4EFF;
-    color: white;
-    font-size: 2.1rem;
-    display: flex;
-    justify-content: center;
-    position: relative; }
-    .how_firefly_works_container .firefly_tutorial_container .text_container p {
-      padding: 5% 17%;
-      font-size: 2.4rem;
-      text-align: center; }
-      @media (max-width: 500px) {
-        .how_firefly_works_container .firefly_tutorial_container .text_container p {
-          font-size: 1.6rem; } }
-    .how_firefly_works_container .firefly_tutorial_container .text_container img {
-      width: 11%;
-      position: absolute;
-      transform: rotate(-10deg);
-      bottom: -13%;
-      right: 10%; }
-      @media (max-width: 500px) {
-        .how_firefly_works_container .firefly_tutorial_container .text_container img {
-          width: 18%;
-          bottom: -24%;
-          right: 8%; } }
-=======
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
   .how_firefly_works_container .firefly_tutorial_container .tutorial_divs {
     margin-top: 5%;
   }
@@ -1396,27 +1145,6 @@ body {
 }
 @media (max-width: 500px) {
   .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 {
-<<<<<<< HEAD
-    padding: 0;
-    margin-left: 7%; }
-    @media (max-width: 500px) {
-      .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 {
-        margin-left: 0; } }
-    .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 .block_container {
-      display: flex;
-      width: 100%;
-      height: 100%; }
-      @media (max-width: 500px) {
-        .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 .block_container {
-          justify-content: center; } }
-      .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content2 .block_container .img3 {
-        align-self: flex-end; }
-  .how_firefly_works_container .firefly_tutorial_container .tut_div1 .content_container .content3 .img4 {
-    width: 55%; }
-  .how_firefly_works_container .firefly_tutorial_container .tut_div2 {
-    background: #F7F6FF; }
->>>>>>> c01e0136c0a4f15a673b77051c256eb43cbbb237
-=======
     margin-left: 0;
   }
 }
@@ -1439,16 +1167,11 @@ body {
 .how_firefly_works_container .firefly_tutorial_container .tut_div2 {
   background: #F7F6FF;
 }
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
 .how_firefly_works_container .testimony_button_div {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
   margin: 25px 0 55px 0;
 }
 @media (max-width: 500px) {
@@ -1474,29 +1197,18 @@ body {
   }
 }
 .how_firefly_works_container .testimony_button_div .testimonial_button {
-<<<<<<< HEAD
-=======
   margin: 0 auto;
   margin-top: 0;
   text-align: center;
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
   width: 300px;
   background-color: #4aa810;
   box-shadow: 0px 3px #3e8c0d;
   color: #e2f5d6;
   padding: 0.8rem;
-<<<<<<< HEAD
-  font-size: 1.92rem;
-  border: none;
-  border-radius: 10px;
-  opacity: 0.92;
-  outline: none;
-=======
   font-size: 2rem;
   border: none;
   border-radius: 10px;
   margin-bottom: 0;
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
 }
 .how_firefly_works_container .all-testimonies {
   margin: 50px 100px 0px 100px;
@@ -1534,11 +1246,7 @@ body {
 }
 .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
   padding-left: 15px;
-<<<<<<< HEAD
-  font-size: 1.7rem;
-=======
   font-size: 2rem;
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
   line-height: 1.2;
 }
 @media (max-width: 750px) {
@@ -1552,17 +1260,13 @@ body {
     position: initial;
   }
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-<<<<<<< HEAD
     word-spacing: 10px;
-=======
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
     width: 95%;
     padding: 3.5%;
   }
   .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info {
     width: 100%;
     font-size: 2.1rem;
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1608,132 +1312,5 @@ body {
     word-spacing: 2px;
   }
 }
-=======
-  margin: 25px 0 55px 0; }
-  @media (max-width: 500px) {
-    .how_firefly_works_container .testimony_button_div {
-      position: relative; } }
-  .how_firefly_works_container .testimony_button_div .testimony_image {
-=======
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
-    margin: 0;
-    font-weight: 700;
-    text-align: center;
-  }
-}
-@media (max-width: 750px) and (max-width: 510px) {
-  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
-    font-size: 38px;
-  }
-}
-@media (max-width: 750px) {
-  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
-    margin: 0;
-  }
-}
-@media (max-width: 750px) and (max-width: 510px) {
-  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
-    font-size: 36px;
-  }
-}
-@media (max-width: 750px) {
-  .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info img {
-    margin: 0;
-  }
-}
-@media (max-width: 750px) {
-  .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-    font-size: 1.2rem;
-    margin: 0;
-    text-align: justify;
-  }
-}
-@media (max-width: 750px) and (max-width: 510px) {
-  .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-    font-size: 2rem;
-<<<<<<< HEAD
-    border: none;
-    border-radius: 10px;
-    margin-bottom: 0; }
-.how_firefly_works_container .all-testimonies {
-  margin: 50px 100px 0px 100px; }
-  @media (max-width: 500px) {
-    .how_firefly_works_container .all-testimonies {
-      margin: 0 0 100px 0;
-      padding: 0; } }
-  .how_firefly_works_container .all-testimonies .testimony_container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center; }
-    .how_firefly_works_container .all-testimonies .testimony_container .testimony {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      font-size: 1.1rem;
-      margin: 15px; }
-      .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.1rem; }
-        .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name,
-        .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
-          margin: 0; }
-        .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
-          font-weight: 700; }
-      .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-        padding-left: 15px;
-        font-size: 1.7rem;
-        line-height: 1.2; }
-      @media (max-width: 750px) {
-        .how_firefly_works_container .all-testimonies .testimony_container .testimony {
-          width: 100%;
-          flex-direction: column;
-          padding: 5%; }
-          .how_firefly_works_container .all-testimonies .testimony_container .testimony img {
-            width: 50%;
-            position: initial; }
-          .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-            width: 95%;
-            padding: 3.5%; }
-          .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info {
-            width: 100%;
-            font-size: 2.1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center; }
-            .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
-              margin: 0;
-              font-weight: 700;
-              text-align: center; } }
-      @media (max-width: 750px) and (max-width: 510px) {
-        .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .user_name {
-          font-size: 38px; } }
-      @media (max-width: 750px) {
-            .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
-              margin: 0; } }
-      @media (max-width: 750px) and (max-width: 510px) {
-        .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info .title {
-          font-size: 36px; } }
-      @media (max-width: 750px) {
-            .how_firefly_works_container .all-testimonies .testimony_container .testimony .user_info img {
-              margin: 0; }
-          .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-            font-size: 1.2rem;
-            margin: 0;
-            text-align: justify; } }
-    @media (max-width: 750px) and (max-width: 510px) {
-      .how_firefly_works_container .all-testimonies .testimony_container .testimony .testimony_text {
-        font-size: 2rem; } }
->>>>>>> c01e0136c0a4f15a673b77051c256eb43cbbb237
-=======
-  }
-}
->>>>>>> cf932e65e0adbd49e3ee71580d9eb0c4af2e677b
 
 /*# sourceMappingURL=index.css.map */
