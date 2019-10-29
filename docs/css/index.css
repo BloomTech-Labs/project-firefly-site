@@ -191,8 +191,12 @@ footer nav .footer-row .footer-column {
   justify-content: center;
   padding: 25px;
 }
+footer nav .footer-row .footer-column .footer-head {
+  color: green;
+  font-weight: 900;
+}
 footer nav .footer-row .footer-column a {
-  color: #F1F1F1;
+  color: white;
   font-size: 1.6rem;
   padding: 10px;
 }
@@ -200,7 +204,7 @@ footer nav .footer-logo {
   width: 10%;
 }
 footer .copyright {
-  color: #4aa810;
+  color: white;
   font-size: 1rem;
   text-align: center;
 }
